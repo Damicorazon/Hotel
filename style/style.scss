@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+$bleu : #173753;
+$mauve : #dbd3d8;
+
+body{
+  h1, h2{
+    font-family: 'Srisakdi', cursive, sans-serif;
+  }
+  p{
+    font-family: 'PT Sans', sans-serif;
+  }
+}
+
+.premierePartie{
+  background: $mauve;
+  h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 25px;
+    color: $bleu;
+  }
+  p{
+    text-align: center;
+    font-size: 20px;
+    color: $bleu;
+    padding-bottom: 24px;
+  }
+}
+
+.photoCarré{
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 73px;
+  div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .boutonPlus{
+    width: 3%;
+    position: absolute;
+    transform: translate(11%, 305%);
+  }
+  img{
+    width: 55%;
+  }
+}
+
+.deuxiemePartie{
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 30px;
+  background: $mauve;
+  position: relative;
+    .cadreBleu{
+      position: absolute;
+      max-width: 350px;
+      top: 130px;
+      right: 75px;
+      padding: 35px 50px;
+      background: $bleu;
+      opacity: 0.8;
+      transition: right 0.8s;
+        .active{
+          right: 0;
+          transition: right 0.8s;
+        }
+        ul{
+          columns: 2;
+            li{
+              color: #fff;
+              list-style: none;
+              margin: 0 0 10px 0;
+                img{
+                  width: 25px;
+                  vertical-align: -6px;
+                  margin: 0 5px 0 0;
+                }
+            }
+        }
+            img{
+              width: 45px;
+            }
+            .fas{
+              color: #fff;
+              position: absolute;
+              left: -10px;
+              top: 55px;
+        }
+    }
+    .imageChambre{
+      width: 70%;
+        .imgChambre1{
+          background: url(../img/chambreBlanc.jpg);
+          padding-bottom: 500px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .imgChambre2{
+          background: url(../img/chambreNoir.jpg);
+          padding-bottom: 500px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;        }
+        .imgChambre3{
+          background: url(../img/chambreBoiserie.jpg);
+          padding-bottom: 500px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+    }
+    .texteChambre{
+      width: 30%;
+      padding-top: 60px;
+      background: #fff;
+      z-index: 500;
+        .widthTexte{
+          width: 80%;
+          margin: auto;
+        }
+        h2, p{
+          text-align: center;
+            span{
+              font-weight: bold;
+            }
+        }
+        h2{
+          padding-bottom: 67px;
+          font-weight: bold;
+          font-size: 32px;
+        }
+        .premierTexte{
+          padding-bottom: 65px;
+          font-size: 17px;
+          text-align: justify;
+        }
+        .deuxiemeTexte{
+          padding-bottom: 53px;
+          font-size: 17px;
+          text-align: justify;
+        }
+        button{
+          display: block;
+          margin: auto;
+        }
+    }
+}

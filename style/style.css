@@ -1,0 +1,123 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body h1, body h2 {
+  font-family: 'Srisakdi', cursive, sans-serif; }
+body p {
+  font-family: 'PT Sans', sans-serif; }
+
+.premierePartie {
+  background: #dbd3d8; }
+  .premierePartie h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 25px;
+    color: #173753; }
+  .premierePartie p {
+    text-align: center;
+    font-size: 20px;
+    color: #173753;
+    padding-bottom: 24px; }
+
+.photoCarré {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 73px; }
+  .photoCarré div {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  .photoCarré .boutonPlus {
+    width: 3%;
+    position: absolute;
+    transform: translate(11%, 305%); }
+  .photoCarré img {
+    width: 55%; }
+
+.deuxiemePartie {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 30px;
+  background: #dbd3d8;
+  position: relative; }
+  .deuxiemePartie .cadreBleu {
+    position: absolute;
+    max-width: 350px;
+    top: 130px;
+    right: 75px;
+    padding: 35px 50px;
+    background: #173753;
+    opacity: 0.8;
+    transition: right 0.8s; }
+    .deuxiemePartie .cadreBleu .active {
+      right: 0;
+      transition: right 0.8s; }
+    .deuxiemePartie .cadreBleu ul {
+      columns: 2; }
+      .deuxiemePartie .cadreBleu ul li {
+        color: #fff;
+        list-style: none;
+        margin: 0 0 10px 0; }
+        .deuxiemePartie .cadreBleu ul li img {
+          width: 25px;
+          vertical-align: -6px;
+          margin: 0 5px 0 0; }
+    .deuxiemePartie .cadreBleu img {
+      width: 45px; }
+    .deuxiemePartie .cadreBleu .fas {
+      color: #fff;
+      position: absolute;
+      left: -10px;
+      top: 55px; }
+  .deuxiemePartie .imageChambre {
+    width: 70%; }
+    .deuxiemePartie .imageChambre .imgChambre1 {
+      background: url(../img/chambreBlanc.jpg);
+      padding-bottom: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+    .deuxiemePartie .imageChambre .imgChambre2 {
+      background: url(../img/chambreNoir.jpg);
+      padding-bottom: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+    .deuxiemePartie .imageChambre .imgChambre3 {
+      background: url(../img/chambreBoiserie.jpg);
+      padding-bottom: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+  .deuxiemePartie .texteChambre {
+    width: 30%;
+    padding-top: 60px;
+    background: #fff;
+    z-index: 500; }
+    .deuxiemePartie .texteChambre .widthTexte {
+      width: 80%;
+      margin: auto; }
+    .deuxiemePartie .texteChambre h2, .deuxiemePartie .texteChambre p {
+      text-align: center; }
+      .deuxiemePartie .texteChambre h2 span, .deuxiemePartie .texteChambre p span {
+        font-weight: bold; }
+    .deuxiemePartie .texteChambre h2 {
+      padding-bottom: 67px;
+      font-weight: bold;
+      font-size: 32px; }
+    .deuxiemePartie .texteChambre .premierTexte {
+      padding-bottom: 65px;
+      font-size: 17px;
+      text-align: justify; }
+    .deuxiemePartie .texteChambre .deuxiemeTexte {
+      padding-bottom: 53px;
+      font-size: 17px;
+      text-align: justify; }
+    .deuxiemePartie .texteChambre button {
+      display: block;
+      margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
