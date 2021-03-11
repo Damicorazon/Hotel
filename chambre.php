@@ -13,12 +13,6 @@
   <title>Document</title>
 </head>
 <body>
-  
-</body>
-</html>
-
-
-
 
 <div class="premierePartie">
   <h1>Chaque chambre est unique</h1>
@@ -41,9 +35,8 @@
 
 <div class="deuxiemePartie">
   <div class="imageChambre">
-    <div class="imgChambre1"></div>
-  </div>
-  <div class="cadreBleu">
+    <!-- <div class="imgChambre1"></div> -->
+    <div class="cadreBleu" id="cadrant1">
     <ul>
       <li>
       <img src="img/air-conditioner.png" alt="petit logo représentant une particule de neige">  
@@ -61,8 +54,10 @@
       <img src="img/bathrobe.png" alt="un peignoir">  
       Peignoirs</li>
     </ul>
-      <i class="fas fa-plus-circle fa-3x"></i>
+      <i id="premierPlus" class="fas fa-plus-circle fa-3x"></i>
+      <i id="premiereFleche" class="fas fa-chevron-circle-right fa-3x" disabled></i>
   </div>
+</div>  
   <div class="texteChambre">
     <div class="widthTexte">
       <h2>Chambre Map Monde</h2>
@@ -100,3 +95,9 @@
     </div>
   </div>
 </div>
+
+
+<script src="script/script.js"></script>
+
+</body>
+</html>

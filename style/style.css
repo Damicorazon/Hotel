@@ -41,45 +41,51 @@ body p {
   display: flex;
   flex-wrap: nowrap;
   padding-bottom: 30px;
-  background: #dbd3d8;
-  position: relative; }
-  .deuxiemePartie .cadreBleu {
-    position: absolute;
-    max-width: 350px;
-    top: 130px;
-    right: 75px;
-    padding: 35px 50px;
-    background: #173753;
-    opacity: 0.8;
-    transition: right 0.8s; }
-    .deuxiemePartie .cadreBleu .active {
-      right: 0;
-      transition: right 0.8s; }
-    .deuxiemePartie .cadreBleu ul {
-      columns: 2; }
-      .deuxiemePartie .cadreBleu ul li {
-        color: #fff;
-        list-style: none;
-        margin: 0 0 10px 0; }
-        .deuxiemePartie .cadreBleu ul li img {
-          width: 25px;
-          vertical-align: -6px;
-          margin: 0 5px 0 0; }
-    .deuxiemePartie .cadreBleu img {
-      width: 45px; }
-    .deuxiemePartie .cadreBleu .fas {
-      color: #fff;
-      position: absolute;
-      left: -10px;
-      top: 55px; }
+  background: #dbd3d8; }
   .deuxiemePartie .imageChambre {
-    width: 70%; }
-    .deuxiemePartie .imageChambre .imgChambre1 {
-      background: url(../img/chambreBlanc.jpg);
-      padding-bottom: 500px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center; }
+    width: 70%;
+    background: url(../img/chambreBlanc.jpg);
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden; }
+    .deuxiemePartie .imageChambre .cadreBleu {
+      position: relative;
+      width: 40%;
+      top: 130px;
+      right: -94%;
+      padding: 35px 50px;
+      background: #173753;
+      opacity: 0.8;
+      transition: right 0.8s; }
+      .deuxiemePartie .imageChambre .cadreBleu .active {
+        right: 0;
+        transition: right 0.8s; }
+      .deuxiemePartie .imageChambre .cadreBleu ul {
+        columns: 2;
+        margin: 0 0 0 40px; }
+        .deuxiemePartie .imageChambre .cadreBleu ul li {
+          color: #fff;
+          list-style: none;
+          margin: 0 0 10px 0px; }
+          .deuxiemePartie .imageChambre .cadreBleu ul li img {
+            width: 25px;
+            vertical-align: -6px;
+            margin: 0 5px 0 0; }
+      .deuxiemePartie .imageChambre .cadreBleu img {
+        width: 45px; }
+      .deuxiemePartie .imageChambre .cadreBleu #premierPlus {
+        color: #fff;
+        position: absolute;
+        left: -10px;
+        top: 55px; }
+      .deuxiemePartie .imageChambre .cadreBleu #premiereFleche {
+        color: #fff;
+        position: absolute;
+        left: -16px;
+        top: 55px;
+        display: none; }
     .deuxiemePartie .imageChambre .imgChambre2 {
       background: url(../img/chambreNoir.jpg);
       padding-bottom: 500px;

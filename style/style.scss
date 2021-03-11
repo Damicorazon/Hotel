@@ -56,52 +56,61 @@ body{
   flex-wrap: nowrap;
   padding-bottom: 30px;
   background: $mauve;
-  position: relative;
-    .cadreBleu{
-      position: absolute;
-      max-width: 350px;
-      top: 130px;
-      right: 75px;
-      padding: 35px 50px;
-      background: $bleu;
-      opacity: 0.8;
-      transition: right 0.8s;
-        .active{
-          right: 0;
-          transition: right 0.8s;
-        }
-        ul{
-          columns: 2;
-            li{
-              color: #fff;
-              list-style: none;
-              margin: 0 0 10px 0;
-                img{
-                  width: 25px;
-                  vertical-align: -6px;
-                  margin: 0 5px 0 0;
-                }
-            }
-        }
+    .imageChambre{
+      width: 70%;
+      background: url(../img/chambreBlanc.jpg);
+      padding-bottom: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      overflow-x: hidden;
+      .cadreBleu{
+        position: relative;
+        width: 40%;
+        top: 130px;
+        right: -94%;
+        padding: 35px 50px;
+        background: $bleu;
+        opacity: 0.8;
+        transition: right 0.8s;
+          .active{
+            right: 0;
+            transition: right 0.8s;
+          }
+          ul{
+            columns: 2;
+            margin: 0 0 0 40px;
+              li{
+                color: #fff;
+                list-style: none;
+                margin: 0 0 10px 0px;
+                  img{
+                    width: 25px;
+                    vertical-align: -6px;
+                    margin: 0 5px 0 0;
+                  }
+              }
+          }
             img{
               width: 45px;
             }
-            .fas{
+            #premierPlus{
               color: #fff;
               position: absolute;
               left: -10px;
               top: 55px;
-        }
-    }
-    .imageChambre{
-      width: 70%;
-        .imgChambre1{
-          background: url(../img/chambreBlanc.jpg);
-          padding-bottom: 500px;
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;
-        }
+            }
+            #premiereFleche{
+              color: #fff;
+              position: absolute;
+              left: -16px;
+              top: 55px;
+              display: none;
+            }
+      }
+        // .imgChambre1{
+
+        // }
         .imgChambre2{
           background: url(../img/chambreNoir.jpg);
           padding-bottom: 500px;
