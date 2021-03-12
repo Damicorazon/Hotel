@@ -19,21 +19,21 @@
   <p>Vous êtes ici chez vous</p>
   <div class="photoCarré">
     <div>
-      <img src="img/chambreBlancMini.jpg" alt="photo en miniature d'une chambre avec une tapisserie de map monde sur le mur couleur blanc et or">
-      <img class="boutonPlus" src="img/add.png" alt="un bouton blanc d'un plus">
+      <img id="premierCarréIMG" src="img/chambreBlancMini.jpg" alt="photo en miniature d'une chambre avec une tapisserie de map monde sur le mur couleur blanc et or">
+      <a href="#deuxiemeSection"><img class="boutonPlus" src="img/add.png" alt="un bouton blanc d'un plus"></a>
     </div>
     <div>
-      <img src="img/chambreBoiserie2Mini.jpg" alt="Chambre avec des boiseries">
-      <img class="boutonPlus"  src="img/add.png" alt="un bouton blanc d'un plus">
+      <img id="deuxiemeCarréIMG" src="img/chambreBoiserie2Mini.jpg" alt="Chambre avec des boiseries">
+      <a href="#troisiemeSection"><img class="boutonPlus"  src="img/add.png" alt="un bouton blanc d'un plus"></a>
     </div>
     <div>
-      <img src="img/chambreNoirMini.jpg" alt="Chambre en marbre de couleur noir">
-      <img class="boutonPlus"  src="img/add.png" alt="un bouton blanc d'un plus">
+      <img id="troisiemeCarréIMG" src="img/chambreNoirMini.jpg" alt="Chambre en marbre de couleur noir">
+      <a href="#quatriemeSection"><img class="boutonPlus"  src="img/add.png" alt="un bouton blanc d'un plus"></a>
     </div>
   </div>
 </div>
 
-<div class="deuxiemePartie">
+<div class="deuxiemePartie" id="deuxiemeSection">
   <div class="imageChambre1">
     <div class="cadreBleu" id="cadrant1">
       <ul>
@@ -67,7 +67,7 @@
   </div>
 </div>
 
-<div class="deuxiemePartie">
+<div class="deuxiemePartie" id="troisiemeSection">
 <div class="texteChambre">
     <div class="widthTexte">
       <h2>Chambre Onyx</h2>
@@ -76,7 +76,7 @@
       <button>Réserver</button>
     </div>
   </div>
-  <div class="imageChambre1">
+  <div class="imageChambre2">
     <div class="cadreBleu2" id="cadrant2">
       <ul>
         <li>
@@ -101,8 +101,8 @@
   </div>  
 </div>
 
-<div class="deuxiemePartie">
-  <div class="imageChambre1">
+<div class="deuxiemePartie" id="quatriemeSection">
+  <div class="imageChambre3">
     <div class="cadreBleu3" id="cadrant3">
       <ul>
         <li>

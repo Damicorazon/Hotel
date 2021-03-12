@@ -32,13 +32,13 @@ plus2.addEventListener('click', fonction3)
 fleche2.addEventListener('click', fonction4)
 
 function fonction3(){
-  cadrant2.style.right = '4%';
+  cadrant2.style.left = '-4%';
   plus2.style.display = 'none';
   fleche2.style.display = 'initial';
 }
 
 function fonction4(){
-  cadrant2.style.right = '44%';
+  cadrant2.style.left = '-42%';
   plus2.style.display = 'initial';
   fleche2.style.display = 'none';
 }
@@ -64,3 +64,48 @@ function fonction6(){
   plus3.style.display = 'initial';
   fleche3.style.display = 'none';
 } 
+
+
+/* Hover sur les 3 images du haut */
+
+var img1 = document.getElementById('premierCarréIMG');
+var img2 = document.getElementById('deuxiemeCarréIMG');
+var img3 = document.getElementById('troisiemeCarréIMG');
+
+img1.addEventListener('mouseover', fonction7)
+
+function fonction7(){
+  img1.src = 'img/chambreBlancMiniEclaire.jpg';
+}
+
+img1.addEventListener('mouseleave', fonction8)
+
+function fonction8(){
+  img1.src = 'img/chambreBlancMini.jpg';
+}
+
+/* Deuxieme image */
+img2.addEventListener('mouseover', fonction9)
+
+function fonction9(){
+  img2.src = 'img/chambreBoiserie2Eclaire.jpg';
+}
+
+img2.addEventListener('mouseleave', fonction10)
+
+function fonction10(){
+  img2.src = 'img/chambreBoiserie2Mini.jpg';
+}
+
+/* Troisieme image */
+img3.addEventListener('mouseover', fonction11)
+
+function fonction11(){
+  img3.src = 'img/chambreNoirEclaire.jpg';
+}
+
+img3.addEventListener('mouseleave', fonction12)
+
+function fonction12(){
+  img3.src = 'img/chambreNoirMini.jpg';
+}

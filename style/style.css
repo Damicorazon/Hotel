@@ -33,7 +33,7 @@ body p {
   .photoCarré .boutonPlus {
     width: 3%;
     position: absolute;
-    transform: translate(11%, 305%); }
+    transform: translate(-345%, 305%); }
   .photoCarré img {
     width: 55%; }
 
@@ -86,43 +86,60 @@ body p {
         left: -16px;
         top: 55px;
         display: none; }
-    .deuxiemePartie .imageChambre1 .cadreBleu2 {
+  .deuxiemePartie .imageChambre2 {
+    width: 70%;
+    background: url(../img/chambreNoir.jpg);
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden; }
+    .deuxiemePartie .imageChambre2 .cadreBleu2 {
       position: relative;
       width: 40%;
       top: 130px;
-      right: 44%;
+      left: -42%;
       padding: 35px 50px;
       background: #173753;
       opacity: 0.8;
       transition: right 0.8s; }
-      .deuxiemePartie .imageChambre1 .cadreBleu2 .active {
+      .deuxiemePartie .imageChambre2 .cadreBleu2 .active {
         right: 0;
         transition: right 0.8s; }
-      .deuxiemePartie .imageChambre1 .cadreBleu2 ul {
+      .deuxiemePartie .imageChambre2 .cadreBleu2 ul {
         columns: 2;
-        margin: 0 0 0 40px; }
-        .deuxiemePartie .imageChambre1 .cadreBleu2 ul li {
+        margin: 0 0 0 10px;
+        box-sizing: border-box; }
+        .deuxiemePartie .imageChambre2 .cadreBleu2 ul li {
           color: #fff;
           list-style: none;
           margin: 0 0 10px 0px; }
-          .deuxiemePartie .imageChambre1 .cadreBleu2 ul li img {
+          .deuxiemePartie .imageChambre2 .cadreBleu2 ul li img {
             width: 25px;
             vertical-align: -6px;
             margin: 0 5px 0 0; }
-      .deuxiemePartie .imageChambre1 .cadreBleu2 img {
+      .deuxiemePartie .imageChambre2 .cadreBleu2 img {
         width: 45px; }
-      .deuxiemePartie .imageChambre1 .cadreBleu2 #deuxiemePlus {
+      .deuxiemePartie .imageChambre2 .cadreBleu2 #deuxiemePlus {
         color: #fff;
         position: absolute;
         right: -12px;
         top: 55px; }
-      .deuxiemePartie .imageChambre1 .cadreBleu2 #deuxiemeFleche {
+      .deuxiemePartie .imageChambre2 .cadreBleu2 #deuxiemeFleche {
         color: #fff;
         position: absolute;
         right: -12px;
         top: 55px;
         display: none; }
-    .deuxiemePartie .imageChambre1 .cadreBleu3 {
+  .deuxiemePartie .imageChambre3 {
+    width: 70%;
+    background: url(../img/chambreBoiserie.jpg);
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden; }
+    .deuxiemePartie .imageChambre3 .cadreBleu3 {
       position: relative;
       width: 40%;
       top: 130px;
@@ -131,28 +148,28 @@ body p {
       background: #173753;
       opacity: 0.8;
       transition: right 0.8s; }
-      .deuxiemePartie .imageChambre1 .cadreBleu3 .active {
+      .deuxiemePartie .imageChambre3 .cadreBleu3 .active {
         right: 0;
         transition: right 0.8s; }
-      .deuxiemePartie .imageChambre1 .cadreBleu3 ul {
+      .deuxiemePartie .imageChambre3 .cadreBleu3 ul {
         columns: 2;
         margin: 0 0 0 40px; }
-        .deuxiemePartie .imageChambre1 .cadreBleu3 ul li {
+        .deuxiemePartie .imageChambre3 .cadreBleu3 ul li {
           color: #fff;
           list-style: none;
           margin: 0 0 10px 0px; }
-          .deuxiemePartie .imageChambre1 .cadreBleu3 ul li img {
+          .deuxiemePartie .imageChambre3 .cadreBleu3 ul li img {
             width: 25px;
             vertical-align: -6px;
             margin: 0 5px 0 0; }
-      .deuxiemePartie .imageChambre1 .cadreBleu3 img {
+      .deuxiemePartie .imageChambre3 .cadreBleu3 img {
         width: 45px; }
-      .deuxiemePartie .imageChambre1 .cadreBleu3 #troisiemePlus {
+      .deuxiemePartie .imageChambre3 .cadreBleu3 #troisiemePlus {
         color: #fff;
         position: absolute;
         left: -10px;
         top: 55px; }
-      .deuxiemePartie .imageChambre1 .cadreBleu3 #troisiemeFleche {
+      .deuxiemePartie .imageChambre3 .cadreBleu3 #troisiemeFleche {
         color: #fff;
         position: absolute;
         left: -16px;
