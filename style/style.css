@@ -42,7 +42,7 @@ body p {
   flex-wrap: nowrap;
   padding-bottom: 30px;
   background: #dbd3d8; }
-  .deuxiemePartie .imageChambre {
+  .deuxiemePartie .imageChambre1 {
     width: 70%;
     background: url(../img/chambreBlanc.jpg);
     padding-bottom: 500px;
@@ -50,7 +50,7 @@ body p {
     background-size: cover;
     background-position: center;
     overflow-x: hidden; }
-    .deuxiemePartie .imageChambre .cadreBleu {
+    .deuxiemePartie .imageChambre1 .cadreBleu {
       position: relative;
       width: 40%;
       top: 130px;
@@ -59,45 +59,105 @@ body p {
       background: #173753;
       opacity: 0.8;
       transition: right 0.8s; }
-      .deuxiemePartie .imageChambre .cadreBleu .active {
+      .deuxiemePartie .imageChambre1 .cadreBleu .active {
         right: 0;
         transition: right 0.8s; }
-      .deuxiemePartie .imageChambre .cadreBleu ul {
+      .deuxiemePartie .imageChambre1 .cadreBleu ul {
         columns: 2;
         margin: 0 0 0 40px; }
-        .deuxiemePartie .imageChambre .cadreBleu ul li {
+        .deuxiemePartie .imageChambre1 .cadreBleu ul li {
           color: #fff;
           list-style: none;
           margin: 0 0 10px 0px; }
-          .deuxiemePartie .imageChambre .cadreBleu ul li img {
+          .deuxiemePartie .imageChambre1 .cadreBleu ul li img {
             width: 25px;
             vertical-align: -6px;
             margin: 0 5px 0 0; }
-      .deuxiemePartie .imageChambre .cadreBleu img {
+      .deuxiemePartie .imageChambre1 .cadreBleu img {
         width: 45px; }
-      .deuxiemePartie .imageChambre .cadreBleu #premierPlus {
+      .deuxiemePartie .imageChambre1 .cadreBleu #premierPlus {
         color: #fff;
         position: absolute;
         left: -10px;
         top: 55px; }
-      .deuxiemePartie .imageChambre .cadreBleu #premiereFleche {
+      .deuxiemePartie .imageChambre1 .cadreBleu #premiereFleche {
         color: #fff;
         position: absolute;
         left: -16px;
         top: 55px;
         display: none; }
-    .deuxiemePartie .imageChambre .imgChambre2 {
-      background: url(../img/chambreNoir.jpg);
-      padding-bottom: 500px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center; }
-    .deuxiemePartie .imageChambre .imgChambre3 {
-      background: url(../img/chambreBoiserie.jpg);
-      padding-bottom: 500px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center; }
+    .deuxiemePartie .imageChambre1 .cadreBleu2 {
+      position: relative;
+      width: 40%;
+      top: 130px;
+      right: 44%;
+      padding: 35px 50px;
+      background: #173753;
+      opacity: 0.8;
+      transition: right 0.8s; }
+      .deuxiemePartie .imageChambre1 .cadreBleu2 .active {
+        right: 0;
+        transition: right 0.8s; }
+      .deuxiemePartie .imageChambre1 .cadreBleu2 ul {
+        columns: 2;
+        margin: 0 0 0 40px; }
+        .deuxiemePartie .imageChambre1 .cadreBleu2 ul li {
+          color: #fff;
+          list-style: none;
+          margin: 0 0 10px 0px; }
+          .deuxiemePartie .imageChambre1 .cadreBleu2 ul li img {
+            width: 25px;
+            vertical-align: -6px;
+            margin: 0 5px 0 0; }
+      .deuxiemePartie .imageChambre1 .cadreBleu2 img {
+        width: 45px; }
+      .deuxiemePartie .imageChambre1 .cadreBleu2 #deuxiemePlus {
+        color: #fff;
+        position: absolute;
+        right: -12px;
+        top: 55px; }
+      .deuxiemePartie .imageChambre1 .cadreBleu2 #deuxiemeFleche {
+        color: #fff;
+        position: absolute;
+        right: -12px;
+        top: 55px;
+        display: none; }
+    .deuxiemePartie .imageChambre1 .cadreBleu3 {
+      position: relative;
+      width: 40%;
+      top: 130px;
+      right: -94%;
+      padding: 35px 50px;
+      background: #173753;
+      opacity: 0.8;
+      transition: right 0.8s; }
+      .deuxiemePartie .imageChambre1 .cadreBleu3 .active {
+        right: 0;
+        transition: right 0.8s; }
+      .deuxiemePartie .imageChambre1 .cadreBleu3 ul {
+        columns: 2;
+        margin: 0 0 0 40px; }
+        .deuxiemePartie .imageChambre1 .cadreBleu3 ul li {
+          color: #fff;
+          list-style: none;
+          margin: 0 0 10px 0px; }
+          .deuxiemePartie .imageChambre1 .cadreBleu3 ul li img {
+            width: 25px;
+            vertical-align: -6px;
+            margin: 0 5px 0 0; }
+      .deuxiemePartie .imageChambre1 .cadreBleu3 img {
+        width: 45px; }
+      .deuxiemePartie .imageChambre1 .cadreBleu3 #troisiemePlus {
+        color: #fff;
+        position: absolute;
+        left: -10px;
+        top: 55px; }
+      .deuxiemePartie .imageChambre1 .cadreBleu3 #troisiemeFleche {
+        color: #fff;
+        position: absolute;
+        left: -16px;
+        top: 55px;
+        display: none; }
   .deuxiemePartie .texteChambre {
     width: 30%;
     padding-top: 60px;
@@ -107,7 +167,8 @@ body p {
       width: 80%;
       margin: auto; }
     .deuxiemePartie .texteChambre h2, .deuxiemePartie .texteChambre p {
-      text-align: center; }
+      text-align: center;
+      color: #173753; }
       .deuxiemePartie .texteChambre h2 span, .deuxiemePartie .texteChambre p span {
         font-weight: bold; }
     .deuxiemePartie .texteChambre h2 {

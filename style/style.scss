@@ -56,7 +56,7 @@ body{
   flex-wrap: nowrap;
   padding-bottom: 30px;
   background: $mauve;
-    .imageChambre{
+    .imageChambre1{
       width: 70%;
       background: url(../img/chambreBlanc.jpg);
       padding-bottom: 500px;
@@ -108,22 +108,94 @@ body{
               display: none;
             }
       }
-        // .imgChambre1{
-
-        // }
-        .imgChambre2{
-          background: url(../img/chambreNoir.jpg);
-          padding-bottom: 500px;
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;        }
-        .imgChambre3{
-          background: url(../img/chambreBoiserie.jpg);
-          padding-bottom: 500px;
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;
-        }
+      .cadreBleu2{
+        position: relative;
+        width: 40%;
+        top: 130px;
+        right: 44%;
+        padding: 35px 50px;
+        background: $bleu;
+        opacity: 0.8;
+        transition: right 0.8s;
+          .active{
+            right: 0;
+            transition: right 0.8s;
+          }
+          ul{
+            columns: 2;
+            margin: 0 0 0 40px;
+              li{
+                color: #fff;
+                list-style: none;
+                margin: 0 0 10px 0px;
+                  img{
+                    width: 25px;
+                    vertical-align: -6px;
+                    margin: 0 5px 0 0;
+                  }
+              }
+          }
+            img{
+              width: 45px;
+            }
+            #deuxiemePlus{
+              color: #fff;
+              position: absolute;
+              right: -12px;
+              top: 55px;
+            }
+            #deuxiemeFleche{
+              color: #fff;
+              position: absolute;
+              right: -12px;
+              top: 55px;
+              display: none;
+            }
+      }
+      .cadreBleu3{
+        position: relative;
+        width: 40%;
+        top: 130px;
+        right: -94%;
+        padding: 35px 50px;
+        background: $bleu;
+        opacity: 0.8;
+        transition: right 0.8s;
+          .active{
+            right: 0;
+            transition: right 0.8s;
+          }
+          ul{
+            columns: 2;
+            margin: 0 0 0 40px;
+              li{
+                color: #fff;
+                list-style: none;
+                margin: 0 0 10px 0px;
+                  img{
+                    width: 25px;
+                    vertical-align: -6px;
+                    margin: 0 5px 0 0;
+                  }
+              }
+          }
+            img{
+              width: 45px;
+            }
+            #troisiemePlus{
+              color: #fff;
+              position: absolute;
+              left: -10px;
+              top: 55px;
+            }
+            #troisiemeFleche{
+              color: #fff;
+              position: absolute;
+              left: -16px;
+              top: 55px;
+              display: none;
+            }
+      }
     }
     .texteChambre{
       width: 30%;
@@ -136,6 +208,7 @@ body{
         }
         h2, p{
           text-align: center;
+          color: $bleu;
             span{
               font-weight: bold;
             }
