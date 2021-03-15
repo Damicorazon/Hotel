@@ -71,14 +71,19 @@ function fonction6(){
 var img1 = document.getElementById('premierCarréIMG');
 var img2 = document.getElementById('deuxiemeCarréIMG');
 var img3 = document.getElementById('troisiemeCarréIMG');
+var boutonPlus1 = document.getElementById('boutonPlus1');
+var boutonPlus2 = document.getElementById('boutonPlus2');
+var boutonPlus3 = document.getElementById('boutonPlus3');
 
 img1.addEventListener('mouseover', fonction7)
+boutonPlus1.addEventListener('mouseover', fonction7)
 
 function fonction7(){
   img1.src = 'img/chambreBlancMiniEclaire.jpg';
 }
 
 img1.addEventListener('mouseleave', fonction8)
+boutonPlus1.addEventListener('mouseleave', fonction8)
 
 function fonction8(){
   img1.src = 'img/chambreBlancMini.jpg';
@@ -86,12 +91,14 @@ function fonction8(){
 
 /* Deuxieme image */
 img2.addEventListener('mouseover', fonction9)
+boutonPlus2.addEventListener('mouseover', fonction9)
 
 function fonction9(){
   img2.src = 'img/chambreBoiserie2Eclaire.jpg';
 }
 
 img2.addEventListener('mouseleave', fonction10)
+boutonPlus2.addEventListener('mouseleave', fonction10)
 
 function fonction10(){
   img2.src = 'img/chambreBoiserie2Mini.jpg';
@@ -99,12 +106,14 @@ function fonction10(){
 
 /* Troisieme image */
 img3.addEventListener('mouseover', fonction11)
+boutonPlus3.addEventListener('mouseover', fonction11)
 
 function fonction11(){
   img3.src = 'img/chambreNoirEclaire.jpg';
 }
 
 img3.addEventListener('mouseleave', fonction12)
+boutonPlus3.addEventListener('mouseleave', fonction12)
 
 function fonction12(){
   img3.src = 'img/chambreNoirMini.jpg';

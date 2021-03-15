@@ -20,15 +20,15 @@
   <div class="photoCarré">
     <div>
       <img id="premierCarréIMG" src="img/chambreBlancMini.jpg" alt="photo en miniature d'une chambre avec une tapisserie de map monde sur le mur couleur blanc et or">
-      <a href="#deuxiemeSection"><img class="boutonPlus" src="img/add.png" alt="un bouton blanc d'un plus"></a>
+      <a href="#deuxiemeSection"><img class="boutonPlus" id="boutonPlus1" src="img/add.png" alt="un bouton blanc d'un plus"></a>
     </div>
     <div>
-      <img id="deuxiemeCarréIMG" src="img/chambreBoiserie2Mini.jpg" alt="Chambre avec des boiseries">
-      <a href="#troisiemeSection"><img class="boutonPlus"  src="img/add.png" alt="un bouton blanc d'un plus"></a>
+      <img id="deuxiemeCarréIMG" src="img/chambreNoirMini.jpg" alt="Chambre avec des boiseries">
+      <a href="#troisiemeSection"><img class="boutonPlus" id="boutonPlus2" src="img/add.png" alt="un bouton blanc d'un plus"></a>
     </div>
     <div>
-      <img id="troisiemeCarréIMG" src="img/chambreNoirMini.jpg" alt="Chambre en marbre de couleur noir">
-      <a href="#quatriemeSection"><img class="boutonPlus"  src="img/add.png" alt="un bouton blanc d'un plus"></a>
+      <img id="troisiemeCarréIMG" src="img/chambreBoiserie2Mini.jpg" alt="Chambre en marbre de couleur noir">
+      <a href="#quatriemeSection"><img class="boutonPlus" id="boutonPlus3" src="img/add.png" alt="un bouton blanc d'un plus"></a>
     </div>
   </div>
 </div>
