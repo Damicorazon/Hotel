@@ -33,7 +33,8 @@ body p {
   .photoCarré .boutonPlus {
     width: 3%;
     position: absolute;
-    transform: translate(-345%, 305%); }
+    transform: translate(-345%, 305%);
+    cursor: pointer; }
   .photoCarré img {
     width: 55%; }
 
@@ -90,13 +91,15 @@ body p {
         color: #fff;
         position: absolute;
         left: -10px;
-        top: 55px; }
+        top: 55px;
+        cursor: pointer; }
       .deuxiemePartie .imageChambre1 .cadreBleu #premiereFleche {
         color: #fff;
         position: absolute;
         left: -16px;
         top: 55px;
-        display: none; }
+        display: none;
+        cursor: pointer; }
   .deuxiemePartie .imageChambre2 {
     width: 70%;
     background: url(../img/chambreNoir.jpg);
@@ -146,13 +149,15 @@ body p {
         color: #fff;
         position: absolute;
         right: -12px;
-        top: 55px; }
+        top: 55px;
+        cursor: pointer; }
       .deuxiemePartie .imageChambre2 .cadreBleu2 #deuxiemeFleche {
         color: #fff;
         position: absolute;
         right: -12px;
         top: 55px;
-        display: none; }
+        display: none;
+        cursor: pointer; }
   .deuxiemePartie .imageChambre3 {
     width: 70%;
     background: url(../img/chambreBoiserie.jpg);
@@ -201,13 +206,15 @@ body p {
         color: #fff;
         position: absolute;
         left: -10px;
-        top: 55px; }
+        top: 55px;
+        cursor: pointer; }
       .deuxiemePartie .imageChambre3 .cadreBleu3 #troisiemeFleche {
         color: #fff;
         position: absolute;
         left: -16px;
         top: 55px;
-        display: none; }
+        display: none;
+        cursor: pointer; }
   .deuxiemePartie .texteChambre {
     width: 30%;
     padding-top: 60px;
@@ -223,9 +230,28 @@ body p {
         color: #fff;
         text-transform: uppercase;
         color: #000;
-        transition: all ease-in-out 0.2s; }
+        transition: all ease-in-out 0.2s;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        overflow: hidden; }
+      .deuxiemePartie .texteChambre .widthTexte button::before {
+        content: '';
+        position: absolute;
+        top: 55px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #173753;
+        z-index: -1;
+        transition: all .5s; }
+      .deuxiemePartie .texteChambre .widthTexte button:hover::before {
+        background: #173753;
+        cursor: pointer;
+        top: 0px;
+        border-radius: 0; }
       .deuxiemePartie .texteChambre .widthTexte button:hover {
-        background: #173753; }
+        color: #fff; }
     .deuxiemePartie .texteChambre h2, .deuxiemePartie .texteChambre p {
       text-align: center;
       color: #173753; }
@@ -245,7 +271,8 @@ body p {
       text-align: justify; }
     .deuxiemePartie .texteChambre button {
       display: block;
-      margin: auto; }
+      margin: auto;
+      cursor: pointer; }
 
 @media screen and (max-width: 1000px) {
   .photoCarré {
@@ -255,7 +282,8 @@ body p {
     .photoCarré img {
       width: 62%; }
     .photoCarré .boutonPlus {
-      width: 10%; }
+      width: 10%;
+      cursor: pointer; }
 
   .deuxiemePartie {
     flex-wrap: wrap; }
