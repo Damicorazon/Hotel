@@ -15,7 +15,7 @@ function fonction1(){
 }
 
 function fonction2(){
-  cadrant1.style.right = '-94%';
+  cadrant1.style.right = '-92%';
   plus1.style.display = 'initial';
   fleche1.style.display = 'none';
 } 

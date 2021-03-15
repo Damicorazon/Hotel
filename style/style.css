@@ -124,7 +124,7 @@ body p {
       padding: 35px 50px;
       background: #173753;
       opacity: 0.8;
-      transition: right 0.8s; }
+      transition: left 0.8s; }
       .deuxiemePartie .imageChambre2 .cadreBleu2 .active {
         right: 0;
         transition: right 0.8s; }
@@ -246,5 +246,60 @@ body p {
     .deuxiemePartie .texteChambre button {
       display: block;
       margin: auto; }
+
+@media screen and (max-width: 1000px) {
+  .photoCarré {
+    display: block; }
+    .photoCarré div {
+      padding-bottom: 20px; }
+    .photoCarré img {
+      width: 62%; }
+    .photoCarré .boutonPlus {
+      width: 10%; }
+
+  .deuxiemePartie {
+    flex-wrap: wrap; }
+    .deuxiemePartie .imageChambre1, .deuxiemePartie .imageChambre2, .deuxiemePartie .imageChambre3 {
+      width: 100%; }
+      .deuxiemePartie .imageChambre1 .cadreBleu ul, .deuxiemePartie .imageChambre1 .cadreBleu2 ul, .deuxiemePartie .imageChambre1 .cadreBleu3 ul, .deuxiemePartie .imageChambre2 .cadreBleu ul, .deuxiemePartie .imageChambre2 .cadreBleu2 ul, .deuxiemePartie .imageChambre2 .cadreBleu3 ul, .deuxiemePartie .imageChambre3 .cadreBleu ul, .deuxiemePartie .imageChambre3 .cadreBleu2 ul, .deuxiemePartie .imageChambre3 .cadreBleu3 ul {
+        columns: initial; }
+      .deuxiemePartie .imageChambre1 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre1 .cadreBleu #premiereFleche, .deuxiemePartie .imageChambre1 .cadreBleu #deuxiemePlus, .deuxiemePartie .imageChambre1 .cadreBleu #deuxiemeFleche, .deuxiemePartie .imageChambre1 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre1 .cadreBleu #troisiemeFleche, .deuxiemePartie .imageChambre1 .cadreBleu2 #premierPlus, .deuxiemePartie .imageChambre1 .cadreBleu2 #premiereFleche, .deuxiemePartie .imageChambre1 .cadreBleu2 #deuxiemePlus, .deuxiemePartie .imageChambre1 .cadreBleu2 #deuxiemeFleche, .deuxiemePartie .imageChambre1 .cadreBleu2 #troisiemePlus, .deuxiemePartie .imageChambre1 .cadreBleu2 #troisiemeFleche, .deuxiemePartie .imageChambre1 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre1 .cadreBleu3 #premiereFleche, .deuxiemePartie .imageChambre1 .cadreBleu3 #deuxiemePlus, .deuxiemePartie .imageChambre1 .cadreBleu3 #deuxiemeFleche, .deuxiemePartie .imageChambre1 .cadreBleu3 #troisiemePlus, .deuxiemePartie .imageChambre1 .cadreBleu3 #troisiemeFleche, .deuxiemePartie .imageChambre2 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre2 .cadreBleu #premiereFleche, .deuxiemePartie .imageChambre2 .cadreBleu #deuxiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu #deuxiemeFleche, .deuxiemePartie .imageChambre2 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu #troisiemeFleche, .deuxiemePartie .imageChambre2 .cadreBleu2 #premierPlus, .deuxiemePartie .imageChambre2 .cadreBleu2 #premiereFleche, .deuxiemePartie .imageChambre2 .cadreBleu2 #deuxiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu2 #deuxiemeFleche, .deuxiemePartie .imageChambre2 .cadreBleu2 #troisiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu2 #troisiemeFleche, .deuxiemePartie .imageChambre2 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre2 .cadreBleu3 #premiereFleche, .deuxiemePartie .imageChambre2 .cadreBleu3 #deuxiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu3 #deuxiemeFleche, .deuxiemePartie .imageChambre2 .cadreBleu3 #troisiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu3 #troisiemeFleche, .deuxiemePartie .imageChambre3 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre3 .cadreBleu #premiereFleche, .deuxiemePartie .imageChambre3 .cadreBleu #deuxiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu #deuxiemeFleche, .deuxiemePartie .imageChambre3 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu #troisiemeFleche, .deuxiemePartie .imageChambre3 .cadreBleu2 #premierPlus, .deuxiemePartie .imageChambre3 .cadreBleu2 #premiereFleche, .deuxiemePartie .imageChambre3 .cadreBleu2 #deuxiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu2 #deuxiemeFleche, .deuxiemePartie .imageChambre3 .cadreBleu2 #troisiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu2 #troisiemeFleche, .deuxiemePartie .imageChambre3 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre3 .cadreBleu3 #premiereFleche, .deuxiemePartie .imageChambre3 .cadreBleu3 #deuxiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu3 #deuxiemeFleche, .deuxiemePartie .imageChambre3 .cadreBleu3 #troisiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu3 #troisiemeFleche {
+        top: 99px; }
+      .deuxiemePartie .imageChambre1 .cadreBleu, .deuxiemePartie .imageChambre1 .cadreBleu3, .deuxiemePartie .imageChambre2 .cadreBleu, .deuxiemePartie .imageChambre2 .cadreBleu3, .deuxiemePartie .imageChambre3 .cadreBleu, .deuxiemePartie .imageChambre3 .cadreBleu3 {
+        right: -92%; }
+        .deuxiemePartie .imageChambre1 .cadreBleu ul, .deuxiemePartie .imageChambre1 .cadreBleu3 ul, .deuxiemePartie .imageChambre2 .cadreBleu ul, .deuxiemePartie .imageChambre2 .cadreBleu3 ul, .deuxiemePartie .imageChambre3 .cadreBleu ul, .deuxiemePartie .imageChambre3 .cadreBleu3 ul {
+          margin: 0 0 0 30px; }
+      .deuxiemePartie .imageChambre1 .cadreBleu2, .deuxiemePartie .imageChambre2 .cadreBleu2, .deuxiemePartie .imageChambre3 .cadreBleu2 {
+        left: -44%; }
+        .deuxiemePartie .imageChambre1 .cadreBleu2 ul, .deuxiemePartie .imageChambre2 .cadreBleu2 ul, .deuxiemePartie .imageChambre3 .cadreBleu2 ul {
+          margin: 0 0 0 10px; }
+    .deuxiemePartie .texteChambre {
+      width: 100%;
+      padding-bottom: 40px; }
+
+  #troisiemeSection {
+    flex-direction: column-reverse; } }
+@media screen and (max-width: 500px) {
+  .deuxiemePartie .imageChambre1 #deuxiemeChevron, .deuxiemePartie .imageChambre1 #chevronBlanc2, .deuxiemePartie .imageChambre1 #quatriemeChevron, .deuxiemePartie .imageChambre2 #deuxiemeChevron, .deuxiemePartie .imageChambre2 #chevronBlanc2, .deuxiemePartie .imageChambre2 #quatriemeChevron, .deuxiemePartie .imageChambre3 #deuxiemeChevron, .deuxiemePartie .imageChambre3 #chevronBlanc2, .deuxiemePartie .imageChambre3 #quatriemeChevron {
+    left: 82%; }
+  .deuxiemePartie .imageChambre1 .cadreBleu, .deuxiemePartie .imageChambre1 .cadreBleu3, .deuxiemePartie .imageChambre2 .cadreBleu, .deuxiemePartie .imageChambre2 .cadreBleu3, .deuxiemePartie .imageChambre3 .cadreBleu, .deuxiemePartie .imageChambre3 .cadreBleu3 {
+    position: initial;
+    transition: initial;
+    width: 100%;
+    padding: 5px 0; }
+    .deuxiemePartie .imageChambre1 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre1 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre1 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre1 .cadreBleu3 #troisiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre2 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre2 .cadreBleu3 #troisiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre3 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre3 .cadreBleu3 #troisiemePlus {
+      display: none; }
+    .deuxiemePartie .imageChambre1 .cadreBleu ul, .deuxiemePartie .imageChambre1 .cadreBleu3 ul, .deuxiemePartie .imageChambre2 .cadreBleu ul, .deuxiemePartie .imageChambre2 .cadreBleu3 ul, .deuxiemePartie .imageChambre3 .cadreBleu ul, .deuxiemePartie .imageChambre3 .cadreBleu3 ul {
+      column-count: 2; }
+  .deuxiemePartie .imageChambre1 .cadreBleu2, .deuxiemePartie .imageChambre2 .cadreBleu2, .deuxiemePartie .imageChambre3 .cadreBleu2 {
+    position: initial;
+    transition: initial;
+    width: 100%;
+    padding: 5px 0; }
+    .deuxiemePartie .imageChambre1 .cadreBleu2 #deuxiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu2 #deuxiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu2 #deuxiemePlus {
+      display: none; }
+    .deuxiemePartie .imageChambre1 .cadreBleu2 ul, .deuxiemePartie .imageChambre2 .cadreBleu2 ul, .deuxiemePartie .imageChambre3 .cadreBleu2 ul {
+      column-count: 2;
+      margin: 0 0 0 30px; } }
 
 /*# sourceMappingURL=style.css.map */

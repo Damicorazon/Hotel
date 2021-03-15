@@ -151,7 +151,7 @@ body{
           padding: 35px 50px;
           background: $bleu;
           opacity: 0.8;
-          transition: right 0.8s;
+          transition: left 0.8s;
             .active{
               right: 0;
               transition: right 0.8s;
@@ -305,4 +305,88 @@ body{
           margin: auto;
         }
     }
+}
+
+@media  screen and (max-width: 1000px){
+  .photoCarré{
+    display: block;
+      div{
+        padding-bottom: 20px;
+      }
+      img{
+        width: 62%;
+      }
+      .boutonPlus{
+        width: 10%;
+      }
+  }
+  .deuxiemePartie{
+    flex-wrap: wrap;
+      .imageChambre1, .imageChambre2, .imageChambre3{
+        width: 100%;
+          .cadreBleu, .cadreBleu2, .cadreBleu3{
+            ul{
+              columns: initial;
+            }
+            #premierPlus, #premiereFleche, #deuxiemePlus, #deuxiemeFleche, #troisiemePlus, #troisiemeFleche{
+              top: 99px;
+            }
+          }
+          .cadreBleu, .cadreBleu3{
+            right: -92%;
+              ul{
+              margin: 0 0 0 30px;
+              }
+          }
+          .cadreBleu2{
+            left: -44%;
+              ul{
+              margin: 0 0 0 10px;
+              }
+          }
+      }
+      .texteChambre{
+        width: 100%;
+        padding-bottom: 40px;
+      }
+  }
+  #troisiemeSection{
+    flex-direction: column-reverse;
+  }
+}
+
+@media  screen and (max-width: 500px){
+
+  .deuxiemePartie{
+    .imageChambre1, .imageChambre2, .imageChambre3{
+      #deuxiemeChevron, #chevronBlanc2, #quatriemeChevron{
+        left: 82%;
+      }
+      .cadreBleu, .cadreBleu3{
+        position: initial;
+        transition: initial;
+        width: 100%;
+        padding: 5px 0;
+          #premierPlus, #troisiemePlus{
+            display: none;
+          }
+          ul{
+            column-count: 2;
+          }
+      }
+      .cadreBleu2{
+        position: initial;
+        transition: initial;
+        width: 100%;
+        padding: 5px 0;
+          #deuxiemePlus{
+            display: none;
+          }
+          ul{
+            column-count: 2;
+            margin: 0 0 0 30px;
+          }
+      }
+    }
+  }
 }
