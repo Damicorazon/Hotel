@@ -34,7 +34,7 @@
 </div>
 
 <div class="deuxiemePartie" id="deuxiemeSection">
-  <div class="imageChambre1">
+  <div class="imageChambre1" id="imageSlider1">
     <div class="cadreBleu" id="cadrant1">
       <ul>
         <li>
@@ -56,6 +56,8 @@
       <i id="premierPlus" class="fas fa-plus-circle fa-3x"></i>
       <i id="premiereFleche" class="fas fa-chevron-circle-right fa-3x" disabled></i>
     </div>
+    <img id="premierChevron" src="img/arrow2.png" alt="fleche couleur bleu orienté vers la gauche">
+    <img id="deuxiemeChevron" src="img/arrow.png" alt="fleche couleur bleu orienté vers la droite">
   </div>  
   <div class="texteChambre">
     <div class="widthTexte">
@@ -76,7 +78,7 @@
       <button>Réserver</button>
     </div>
   </div>
-  <div class="imageChambre2">
+  <div class="imageChambre2" id="imageSlider2">
     <div class="cadreBleu2" id="cadrant2">
       <ul>
         <li>
@@ -98,11 +100,13 @@
       <i id="deuxiemePlus" class="fas fa-plus-circle fa-3x"></i>
       <i id="deuxiemeFleche" class="fas fa-chevron-circle-right fa-3x" disabled></i>
     </div>
+    <img id="chevronBlanc" src="img/arrowblanc2.png" alt="fleche couleur blanche orienté vers la gauche">
+    <img id="chevronBlanc2" src="img/arrowblanc.png" alt="fleche couleur blanche orienté vers la droite">
   </div>  
 </div>
 
 <div class="deuxiemePartie" id="quatriemeSection">
-  <div class="imageChambre3">
+  <div class="imageChambre3" id="imageSlider3">
     <div class="cadreBleu3" id="cadrant3">
       <ul>
         <li>
@@ -124,6 +128,8 @@
       <i id="troisiemePlus" class="fas fa-plus-circle fa-3x"></i>
       <i id="troisiemeFleche" class="fas fa-chevron-circle-right fa-3x" disabled></i>
     </div>
+    <img id="troisiemeChevron" src="img/arrow2.png" alt="fleche couleur bleu orienté vers la gauche">
+    <img id="quatriemeChevron" src="img/arrow.png" alt="fleche couleur bleu orienté vers la droite">
   </div>  
   <div class="texteChambre">
     <div class="widthTexte">

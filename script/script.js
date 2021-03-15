@@ -109,3 +109,97 @@ img3.addEventListener('mouseleave', fonction12)
 function fonction12(){
   img3.src = 'img/chambreNoirMini.jpg';
 }
+
+
+// SLIDER 1:
+
+
+var chevronGauche1 = document.getElementById('premierChevron');
+
+var chevronDroit1 = document.getElementById('deuxiemeChevron');
+
+var sliderImg = document.getElementById('imageSlider1');
+
+var images = ['chambreBlanc.jpg', 'salleDeBainBlanc.jpg'];
+var img = "img/";
+var i = 0;
+
+chevronGauche1.addEventListener('click', gauche)
+chevronDroit1.addEventListener('click', droite)
+
+
+function gauche() {
+  if(i <= 0 ) i = images.length;
+  i--;
+  return imgDefaut();
+}
+function droite(){
+  if( i >= images.length-1) i = -1;
+  i++;
+  return imgDefaut();
+}
+function imgDefaut() {
+  return sliderImg.style.backgroundImage = "url("+img + images[i]+")";
+}
+
+
+// SLIDER 2:
+
+
+var chevronGauche2 = document.getElementById('chevronBlanc');
+
+var chevronDroit2 = document.getElementById('chevronBlanc2');
+
+var sliderImg2 = document.getElementById('imageSlider2');
+
+var images2 = ['chambreNoir.jpg', 'salleDeBainNoir.jpg'];
+var t = 0;
+
+chevronGauche2.addEventListener('click', gauche2)
+chevronDroit2.addEventListener('click', droite2)
+
+
+function gauche2() {
+  if(t <= 0 ) t = images2.length;
+  t--;
+  return imgDefaut2();
+}
+function droite2(){
+  if( t >= images2.length-1) t = -1;
+  t++;
+  return imgDefaut2();
+}
+function imgDefaut2() {
+  return sliderImg2.style.backgroundImage = "url("+img + images2[t]+")";
+}
+
+
+// SLIDER 3:
+
+
+var chevronGauche3 = document.getElementById('troisiemeChevron');
+
+var chevronDroit3 = document.getElementById('quatriemeChevron');
+
+var sliderImg3 = document.getElementById('imageSlider3');
+
+var images3 = ['chambreBoiserie.jpg','chambreBoiserie2.jpg', 'salleDeBainBoiserie.jpg'];
+var y = 0;
+
+chevronGauche3.addEventListener('click', gauche3)
+chevronDroit3.addEventListener('click', droite3)
+
+
+function gauche3() {
+  if(y <= 0 ) y = images3.length;
+  y--;
+  return imgDefaut3();
+}
+function droite3(){
+  if( y >= images3.length-1) y = -1;
+  y++;
+  return imgDefaut3();
+}
+function imgDefaut3() {
+  return sliderImg3.style.backgroundImage = "url("+img + images3[y]+")";
+}

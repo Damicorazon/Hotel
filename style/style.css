@@ -49,7 +49,18 @@ body p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    position: relative; }
+    .deuxiemePartie .imageChambre1 #premierChevron {
+      width: 45px;
+      position: absolute;
+      bottom: 5%;
+      left: 2%; }
+    .deuxiemePartie .imageChambre1 #deuxiemeChevron {
+      width: 45px;
+      position: absolute;
+      bottom: 5%;
+      left: 90%; }
     .deuxiemePartie .imageChambre1 .cadreBleu {
       position: relative;
       width: 40%;
@@ -93,7 +104,18 @@ body p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    position: relative; }
+    .deuxiemePartie .imageChambre2 #chevronBlanc {
+      width: 45px;
+      position: absolute;
+      bottom: 5%;
+      left: 2%; }
+    .deuxiemePartie .imageChambre2 #chevronBlanc2 {
+      width: 45px;
+      position: absolute;
+      bottom: 5%;
+      left: 90%; }
     .deuxiemePartie .imageChambre2 .cadreBleu2 {
       position: relative;
       width: 40%;
@@ -138,7 +160,18 @@ body p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    position: relative; }
+    .deuxiemePartie .imageChambre3 #troisiemeChevron {
+      width: 45px;
+      position: absolute;
+      bottom: 5%;
+      left: 2%; }
+    .deuxiemePartie .imageChambre3 #quatriemeChevron {
+      width: 45px;
+      position: absolute;
+      bottom: 5%;
+      left: 90%; }
     .deuxiemePartie .imageChambre3 .cadreBleu3 {
       position: relative;
       width: 40%;
@@ -183,6 +216,16 @@ body p {
     .deuxiemePartie .texteChambre .widthTexte {
       width: 80%;
       margin: auto; }
+      .deuxiemePartie .texteChambre .widthTexte button {
+        padding: 15px 55px;
+        font-size: 16px;
+        border-radius: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        color: #000;
+        transition: all ease-in-out 0.2s; }
+      .deuxiemePartie .texteChambre .widthTexte button:hover {
+        background: #173753; }
     .deuxiemePartie .texteChambre h2, .deuxiemePartie .texteChambre p {
       text-align: center;
       color: #173753; }

@@ -64,50 +64,63 @@ body{
       background-size: cover;
       background-position: center;
       overflow-x: hidden;
-      .cadreBleu{
-        position: relative;
-        width: 40%;
-        top: 130px;
-        right: -94%;
-        padding: 35px 50px;
-        background: $bleu;
-        opacity: 0.8;
-        transition: right 0.8s;
-          .active{
-            right: 0;
-            transition: right 0.8s;
-          }
-          ul{
-            columns: 2;
-            margin: 0 0 0 40px;
-              li{
-                color: #fff;
-                list-style: none;
-                margin: 0 0 10px 0px;
-                  img{
-                    width: 25px;
-                    vertical-align: -6px;
-                    margin: 0 5px 0 0;
-                  }
+      position: relative;
+        #premierChevron{
+          width: 45px;
+          position: absolute;
+          bottom: 5%;
+          left: 2%;
+        }
+        #deuxiemeChevron{
+          width: 45px;
+          position: absolute;
+          bottom: 5%;
+          left: 90%;
+        }
+        .cadreBleu{
+          position: relative;
+          width: 40%;
+          top: 130px;
+          right: -94%;
+          padding: 35px 50px;
+          background: $bleu;
+          opacity: 0.8;
+          transition: right 0.8s;
+            .active{
+              right: 0;
+              transition: right 0.8s;
+            }
+            ul{
+              columns: 2;
+              margin: 0 0 0 40px;
+                li{
+                  color: #fff;
+                  list-style: none;
+                  margin: 0 0 10px 0px;
+                    img{
+                      width: 25px;
+                      vertical-align: -6px;
+                      margin: 0 5px 0 0;
+                    }
+                }
+            }
+              img{
+                width: 45px;
               }
-          }
-            img{
-              width: 45px;
-            }
-            #premierPlus{
-              color: #fff;
-              position: absolute;
-              left: -10px;
-              top: 55px;
-            }
-            #premiereFleche{
-              color: #fff;
-              position: absolute;
-              left: -16px;
-              top: 55px;
-              display: none;
-            }
-      }
+              #premierPlus{
+                color: #fff;
+                position: absolute;
+                left: -10px;
+                top: 55px;
+              }
+              #premiereFleche{
+                color: #fff;
+                position: absolute;
+                left: -16px;
+                top: 55px;
+                display: none;
+              }
+        }
     }
     .imageChambre2{
       width: 70%;
@@ -117,6 +130,19 @@ body{
       background-size: cover;
       background-position: center;
       overflow-x: hidden;
+      position: relative;
+        #chevronBlanc{
+          width: 45px;
+          position: absolute;
+          bottom: 5%;
+          left: 2%;
+        }
+        #chevronBlanc2{
+          width: 45px;
+          position: absolute;
+          bottom: 5%;
+          left: 90%;
+        }
         .cadreBleu2{
           position: relative;
           width: 40%;
@@ -171,6 +197,19 @@ body{
       background-size: cover;
       background-position: center;
       overflow-x: hidden;
+      position: relative;
+        #troisiemeChevron{
+          width: 45px;
+          position: absolute;
+          bottom: 5%;
+          left: 2%;
+        }
+        #quatriemeChevron{
+          width: 45px;
+          position: absolute;
+          bottom: 5%;
+          left: 90%;
+        }
         .cadreBleu3{
           position: relative;
           width: 40%;
@@ -224,6 +263,20 @@ body{
         .widthTexte{
           width: 80%;
           margin: auto;
+            button{
+              padding: 15px 55px;
+              font-size: 16px;
+              border-radius: 15px;
+              color: #fff;
+              text-transform: uppercase;
+              color: #000;
+              transition: all ease-in-out 0.2s;
+
+            }
+            button:hover{
+              background: $bleu;
+
+            }
         }
         h2, p{
           text-align: center;
