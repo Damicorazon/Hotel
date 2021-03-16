@@ -314,29 +314,32 @@ body p {
         .reservation .reservationPartieGauche form .formulaireReservation .inputReservation {
           display: flex;
           flex-direction: column; }
-          .reservation .reservationPartieGauche form .formulaireReservation .inputReservation input, .reservation .reservationPartieGauche form .formulaireReservation .inputReservation select {
-            background: transparent;
-            border: none;
-            border-bottom: 1px dashed #83A4C5;
-            width: 245px;
-            outline: none;
-            padding: 0px 0px 5px 0px;
-            font-style: italic;
-            color: #fff;
-            margin-bottom: 14px; }
-          .reservation .reservationPartieGauche form .formulaireReservation .inputReservation textarea {
-            padding: 0px 0px 0px 0px;
-            background: transparent;
-            outline: none;
-            border: none;
-            border-bottom: 1px dashed #83A4C5;
-            width: 245px;
-            overflow: hidden;
-            resize: none;
-            height: 20px;
-            margin-bottom: 14px; }
-          .reservation .reservationPartieGauche form .formulaireReservation .inputReservation select {
-            background: #173753; }
+        .reservation .reservationPartieGauche form .formulaireReservation input, .reservation .reservationPartieGauche form .formulaireReservation select {
+          background: transparent;
+          border: none;
+          border-bottom: 1px dashed #83A4C5;
+          width: 245px;
+          outline: none;
+          padding: 0px 0px 5px 0px;
+          font-style: italic;
+          color: #fff;
+          margin-bottom: 14px; }
+        .reservation .reservationPartieGauche form .formulaireReservation textarea {
+          padding: 0px 0px 0px 0px;
+          background: transparent;
+          outline: none;
+          border: none;
+          border-bottom: 1px dashed #83A4C5;
+          width: 245px;
+          overflow: hidden;
+          resize: none;
+          height: 40px;
+          margin-bottom: 14px; }
+        .reservation .reservationPartieGauche form .formulaireReservation select {
+          background: #173753; }
+      .reservation .reservationPartieGauche form input[type=submit]:disabled {
+        cursor: not-allowed;
+        background: #cccbcb; }
       .reservation .reservationPartieGauche form #checkContactComplet {
         width: 100%;
         margin: 30px 0px;
@@ -357,7 +360,8 @@ body p {
           font-size: 16px;
           margin: auto;
           display: block;
-          font-family: 'PT Sans', sans-serif; }
+          font-family: 'PT Sans', sans-serif;
+          cursor: pointer; }
   .reservation .reservationPartieDroite {
     background: url(../img/bed.jpg);
     background-repeat: no-repeat;
@@ -420,7 +424,12 @@ body p {
       padding-bottom: 40px; }
 
   #troisiemeSection {
-    flex-direction: column-reverse; } }
+    flex-direction: column-reverse; }
+
+  .reservation {
+    display: block; }
+    .reservation .reservationPartieGauche, .reservation .reservationPartieDroite {
+      width: 100%; } }
 @media screen and (max-width: 500px) {
   .deuxiemePartie .imageChambre1, .deuxiemePartie .imageChambre2, .deuxiemePartie .imageChambre3 {
     padding-bottom: 270px; }
@@ -444,6 +453,13 @@ body p {
         display: none; }
       .deuxiemePartie .imageChambre1 .cadreBleu2 ul, .deuxiemePartie .imageChambre2 .cadreBleu2 ul, .deuxiemePartie .imageChambre3 .cadreBleu2 ul {
         column-count: 2;
-        margin: 0 0 0 30px; } }
+        margin: 0 0 0 30px; }
+
+  .reservation .reservationPartieGauche h2 {
+    padding: 50px 15px 10px 15px; }
+  .reservation .reservationPartieGauche form {
+    margin: 0 10px; }
+    .reservation .reservationPartieGauche form .formulaireReservation input, .reservation .reservationPartieGauche form .formulaireReservation select, .reservation .reservationPartieGauche form .formulaireReservation textarea {
+      width: 190px; } }
 
 /*# sourceMappingURL=style.css.map */

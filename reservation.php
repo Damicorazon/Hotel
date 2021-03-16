@@ -31,17 +31,17 @@
           <label id="demandeLabel" for="demande">Demande</label>
         </div>
         <div class="inputReservation">
-          <input type="text" name="nom" id="nom">
-          <input type="text" name="prenom" id="prenom">
+          <input type="text" name="nom" id="nom" minlength="3" required>
+          <input type="text" name="prenom" id="prenom" minlength="3" required>
           <input type="tel" name="telephone" id="telephone" minlength="10" maxlength="10" pattern="^[0-9]{10}$">
-          <input type="email" name="mail" id="mail">
+          <input type="email" name="mail" id="mail" minlength="6" required>
           <select id="chambre" name="chambre">
             <option>Chambre Map Monde</option>
             <option>Chambre Onyx</option>
             <option>Chambre Boiserie</option>
           </select>
-          <input type="date" name="dateArrivée" id="dateArrivée">
-          <input type="date" name="dateDepart" id="dateDepart">
+          <input type="date" name="dateArrivee" id="dateArrivee" value="defaut" required>
+          <input type="date" name="dateDepart" id="dateDepart" value="defaut2" required>
           <!-- <input type="text" name="demande" id="demande"> -->
           <textarea name="demande" id="demande"></textarea>
         </div>

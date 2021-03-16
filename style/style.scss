@@ -378,6 +378,7 @@ body{
                 .inputReservation{
                   display: flex;
                   flex-direction: column;
+                  }
                   input, select{
                     background: transparent;
                     border: none;
@@ -398,13 +399,16 @@ body{
                     width: 245px;
                     overflow: hidden;
                     resize:none;
-                    height:20px;
+                    height:40px;
                     margin-bottom: 14px;
                   }
                   select{
                     background: $bleu;
                   }
                 }
+                input[type=submit]:disabled{
+                  cursor: not-allowed;
+                  background: #cccbcb;
             }
             #checkContactComplet{
               width: 100%;
@@ -429,6 +433,7 @@ body{
                   margin: auto;
                   display: block;
                   font-family: 'PT Sans', sans-serif;
+                  cursor: pointer;
                 }
             }
         }
@@ -519,6 +524,12 @@ body{
   #troisiemeSection{
     flex-direction: column-reverse;
   }
+  .reservation{
+    display: block;
+      .reservationPartieGauche, .reservationPartieDroite{
+        width: 100%;
+      }
+  }
 }
 
 @media  screen and (max-width: 500px){
@@ -553,6 +564,21 @@ body{
             column-count: 2;
             margin: 0 0 0 30px;
           }
+      }
+    }
+  }
+  .reservation{
+    .reservationPartieGauche{
+      h2{
+        padding: 50px 15px 10px 15px;
+      }
+      form{
+        margin: 0 10px;
+          .formulaireReservation{
+            input, select, textarea{
+              width: 190px;
+            }
+        }
       }
     }
   }
