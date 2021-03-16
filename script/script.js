@@ -94,14 +94,14 @@ img2.addEventListener('mouseover', fonction9)
 boutonPlus2.addEventListener('mouseover', fonction9)
 
 function fonction9(){
-  img2.src = 'img/chambreBoiserie2Eclaire.jpg';
+  img2.src = 'img/chambreNoirEclaire.jpg';
 }
 
 img2.addEventListener('mouseleave', fonction10)
 boutonPlus2.addEventListener('mouseleave', fonction10)
 
 function fonction10(){
-  img2.src = 'img/chambreBoiserie2Mini.jpg';
+  img2.src = 'img/chambreNoirMini.jpg';
 }
 
 /* Troisieme image */
@@ -109,14 +109,14 @@ img3.addEventListener('mouseover', fonction11)
 boutonPlus3.addEventListener('mouseover', fonction11)
 
 function fonction11(){
-  img3.src = 'img/chambreNoirEclaire.jpg';
+  img3.src = 'img/chambreBoiserie2Eclaire.jpg';
 }
 
 img3.addEventListener('mouseleave', fonction12)
 boutonPlus3.addEventListener('mouseleave', fonction12)
 
 function fonction12(){
-  img3.src = 'img/chambreNoirMini.jpg';
+  img3.src = 'img/chambreBoiserie2Mini.jpg';
 }
 
 

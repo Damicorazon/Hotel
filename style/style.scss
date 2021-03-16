@@ -16,7 +16,7 @@ body{
 }
 
 .premierePartie{
-  background: $mauve;
+  background: #fff;
   h1{
     text-align: center;
     font-weight: bold;
@@ -56,7 +56,7 @@ body{
   display: flex;
   flex-wrap: nowrap;
   padding-bottom: 30px;
-  background: $mauve;
+  background: #fff;
     .imageChambre1{
       width: 70%;
       background: url(../img/chambreBlanc.jpg);
@@ -265,43 +265,48 @@ body{
     .texteChambre{
       width: 30%;
       padding-top: 60px;
-      background: #fff;
+      background: $mauve;
       z-index: 500;
         .widthTexte{
           width: 80%;
           margin: auto;
-            button{
+            a{
               padding: 15px 55px;
               font-size: 16px;
               border-radius: 15px;
               color: #fff;
               text-transform: uppercase;
-              color: #000;
+              color: $bleu;
               transition: all ease-in-out 0.2s;
               cursor: pointer;
               position: relative;
               z-index: 0;
               overflow: hidden;
+              border: 1px solid $bleu;
+              text-align: center;
+              width: 30%;
+              text-decoration: none;
             }
-            button::before{
+            a::before{
              content:'';
              position: absolute;
              top: 55px;
-             left: -10px;
-             width: 217px;
+             left: 0px;
+             width: 110%;
              height: 100%;
              background: $bleu;
              z-index: -1;
-             transition: all .5s;     
+             transition: all .8s;     
             }
-            button:hover::before{
+            a:hover::before{
               background: $bleu;
               cursor: pointer;
               top: 0px;
               border-radius: 0;
             }
-            button:hover{
+            a:hover{
               color: #fff;
+              border: 1px solid #fff;
             }
         }
         h2, p{
@@ -326,13 +331,146 @@ body{
           font-size: 17px;
           text-align: justify;
         }
-        button{
+        a{
           display: block;
           margin: auto;
           cursor: pointer;
         }
     }
 }
+
+/* PARTIE RESERVATION */
+.reservation{
+  display: flex;
+  flex-wrap: nowrap;
+    .reservationPartieGauche, .reservationPartieDroite{
+      width: 50%;
+    }
+    .reservationPartieGauche{
+      background: $bleu;
+      padding-bottom: 50px;
+        h2{
+          padding-top: 80px;
+          color: #fff;
+          text-align: center;
+          margin-bottom: 50px;
+          font-size: 20px;
+          font-family: 'PT Sans', sans-serif;
+        }
+        form{
+          margin: 0 75px;
+          display: flex;
+          flex-wrap: wrap;
+            .formulaireReservation{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+                .labelReservation{
+                  display: flex;
+                  flex-direction: column;
+                    label{
+                      padding: 0 15px 5px 0;
+                      color: #fff;
+                      font-family: 'PT Sans', sans-serif;
+                      margin-bottom: 11px;
+                    }
+                }
+                .inputReservation{
+                  display: flex;
+                  flex-direction: column;
+                  input, select{
+                    background: transparent;
+                    border: none;
+                    border-bottom: 1px dashed #83A4C5;
+                    width: 245px;
+                    outline: none;
+                    padding: 0px 0px 5px 0px;
+                    font-style: italic;
+                    color: #fff;
+                    margin-bottom: 14px;
+                  }
+                  textarea{
+                    padding: 0px 0px 0px 0px;
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    border-bottom: 1px dashed #83A4C5;
+                    width: 245px;
+                    overflow: hidden;
+                    resize:none;
+                    height:20px;
+                    margin-bottom: 14px;
+                  }
+                  select{
+                    background: $bleu;
+                  }
+                }
+            }
+            #checkContactComplet{
+              width: 100%;
+              margin: 30px 0px;
+              text-align: center;
+                label{
+                  color: #fff;
+                  font-family: 'PT Sans', sans-serif;
+                }
+            }
+            .boutonReservation{
+              width: 100%;
+                input{
+                  padding: 15px;
+                  text-transform: uppercase;
+                  color: $bleu;
+                  background: #fff;
+                  border-radius: 7px;
+                  border: none;
+                  font-weight: bold;
+                  font-size: 16px;
+                  margin: auto;
+                  display: block;
+                  font-family: 'PT Sans', sans-serif;
+                }
+            }
+        }
+    }
+    .reservationPartieDroite{
+      background: url(../img/bed.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+    }
+    .reservationCadreBlanc{
+      width: 60%;
+      background: rgba(255,255,255,0.6);
+      margin: 250px 0px;
+      padding: 30px 0px;
+        h2, p{
+          text-align: center;
+          width: 100%;
+          padding-bottom: 10px;
+          font-family: 'PT Sans', sans-serif;
+        }
+        h2{
+          font-variant-caps: small-caps;
+          font-weight: bold;
+          font-size: 30px;
+        }
+        p{
+          width: 60%;
+          margin: auto;
+          font-size: 16px;
+        }
+        .traitReservation{
+          width: 30%;
+          border-bottom: 1px solid $bleu;
+        }
+    }
+}
+
+
+/* PARTIE RESPONSIVE */
 
 @media  screen and (max-width: 1000px){
   .photoCarré{
@@ -387,6 +525,7 @@ body{
 
   .deuxiemePartie{
     .imageChambre1, .imageChambre2, .imageChambre3{
+      padding-bottom: 270px;
       #deuxiemeChevron, #chevronBlanc2, #quatriemeChevron{
         left: 82%;
       }

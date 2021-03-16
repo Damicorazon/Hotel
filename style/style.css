@@ -9,7 +9,7 @@ body p {
   font-family: 'PT Sans', sans-serif; }
 
 .premierePartie {
-  background: #dbd3d8; }
+  background: #fff; }
   .premierePartie h1 {
     text-align: center;
     font-weight: bold;
@@ -42,7 +42,7 @@ body p {
   display: flex;
   flex-wrap: nowrap;
   padding-bottom: 30px;
-  background: #dbd3d8; }
+  background: #fff; }
   .deuxiemePartie .imageChambre1 {
     width: 70%;
     background: url(../img/chambreBlanc.jpg);
@@ -218,40 +218,45 @@ body p {
   .deuxiemePartie .texteChambre {
     width: 30%;
     padding-top: 60px;
-    background: #fff;
+    background: #dbd3d8;
     z-index: 500; }
     .deuxiemePartie .texteChambre .widthTexte {
       width: 80%;
       margin: auto; }
-      .deuxiemePartie .texteChambre .widthTexte button {
+      .deuxiemePartie .texteChambre .widthTexte a {
         padding: 15px 55px;
         font-size: 16px;
         border-radius: 15px;
         color: #fff;
         text-transform: uppercase;
-        color: #000;
+        color: #173753;
         transition: all ease-in-out 0.2s;
         cursor: pointer;
         position: relative;
         z-index: 0;
-        overflow: hidden; }
-      .deuxiemePartie .texteChambre .widthTexte button::before {
+        overflow: hidden;
+        border: 1px solid #173753;
+        text-align: center;
+        width: 30%;
+        text-decoration: none; }
+      .deuxiemePartie .texteChambre .widthTexte a::before {
         content: '';
         position: absolute;
         top: 55px;
-        left: -10px;
-        width: 217px;
+        left: 0px;
+        width: 110%;
         height: 100%;
         background: #173753;
         z-index: -1;
-        transition: all .5s; }
-      .deuxiemePartie .texteChambre .widthTexte button:hover::before {
+        transition: all .8s; }
+      .deuxiemePartie .texteChambre .widthTexte a:hover::before {
         background: #173753;
         cursor: pointer;
         top: 0px;
         border-radius: 0; }
-      .deuxiemePartie .texteChambre .widthTexte button:hover {
-        color: #fff; }
+      .deuxiemePartie .texteChambre .widthTexte a:hover {
+        color: #fff;
+        border: 1px solid #fff; }
     .deuxiemePartie .texteChambre h2, .deuxiemePartie .texteChambre p {
       text-align: center;
       color: #173753; }
@@ -269,11 +274,120 @@ body p {
       padding-bottom: 53px;
       font-size: 17px;
       text-align: justify; }
-    .deuxiemePartie .texteChambre button {
+    .deuxiemePartie .texteChambre a {
       display: block;
       margin: auto;
       cursor: pointer; }
 
+/* PARTIE RESERVATION */
+.reservation {
+  display: flex;
+  flex-wrap: nowrap; }
+  .reservation .reservationPartieGauche, .reservation .reservationPartieDroite {
+    width: 50%; }
+  .reservation .reservationPartieGauche {
+    background: #173753;
+    padding-bottom: 50px; }
+    .reservation .reservationPartieGauche h2 {
+      padding-top: 80px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 20px;
+      font-family: 'PT Sans', sans-serif; }
+    .reservation .reservationPartieGauche form {
+      margin: 0 75px;
+      display: flex;
+      flex-wrap: wrap; }
+      .reservation .reservationPartieGauche form .formulaireReservation {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        .reservation .reservationPartieGauche form .formulaireReservation .labelReservation {
+          display: flex;
+          flex-direction: column; }
+          .reservation .reservationPartieGauche form .formulaireReservation .labelReservation label {
+            padding: 0 15px 5px 0;
+            color: #fff;
+            font-family: 'PT Sans', sans-serif;
+            margin-bottom: 11px; }
+        .reservation .reservationPartieGauche form .formulaireReservation .inputReservation {
+          display: flex;
+          flex-direction: column; }
+          .reservation .reservationPartieGauche form .formulaireReservation .inputReservation input, .reservation .reservationPartieGauche form .formulaireReservation .inputReservation select {
+            background: transparent;
+            border: none;
+            border-bottom: 1px dashed #83A4C5;
+            width: 245px;
+            outline: none;
+            padding: 0px 0px 5px 0px;
+            font-style: italic;
+            color: #fff;
+            margin-bottom: 14px; }
+          .reservation .reservationPartieGauche form .formulaireReservation .inputReservation textarea {
+            padding: 0px 0px 0px 0px;
+            background: transparent;
+            outline: none;
+            border: none;
+            border-bottom: 1px dashed #83A4C5;
+            width: 245px;
+            overflow: hidden;
+            resize: none;
+            height: 20px;
+            margin-bottom: 14px; }
+          .reservation .reservationPartieGauche form .formulaireReservation .inputReservation select {
+            background: #173753; }
+      .reservation .reservationPartieGauche form #checkContactComplet {
+        width: 100%;
+        margin: 30px 0px;
+        text-align: center; }
+        .reservation .reservationPartieGauche form #checkContactComplet label {
+          color: #fff;
+          font-family: 'PT Sans', sans-serif; }
+      .reservation .reservationPartieGauche form .boutonReservation {
+        width: 100%; }
+        .reservation .reservationPartieGauche form .boutonReservation input {
+          padding: 15px;
+          text-transform: uppercase;
+          color: #173753;
+          background: #fff;
+          border-radius: 7px;
+          border: none;
+          font-weight: bold;
+          font-size: 16px;
+          margin: auto;
+          display: block;
+          font-family: 'PT Sans', sans-serif; }
+  .reservation .reservationPartieDroite {
+    background: url(../img/bed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; }
+  .reservation .reservationCadreBlanc {
+    width: 60%;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 250px 0px;
+    padding: 30px 0px; }
+    .reservation .reservationCadreBlanc h2, .reservation .reservationCadreBlanc p {
+      text-align: center;
+      width: 100%;
+      padding-bottom: 10px;
+      font-family: 'PT Sans', sans-serif; }
+    .reservation .reservationCadreBlanc h2 {
+      font-variant-caps: small-caps;
+      font-weight: bold;
+      font-size: 30px; }
+    .reservation .reservationCadreBlanc p {
+      width: 60%;
+      margin: auto;
+      font-size: 16px; }
+    .reservation .reservationCadreBlanc .traitReservation {
+      width: 30%;
+      border-bottom: 1px solid #173753; }
+
+/* PARTIE RESPONSIVE */
 @media screen and (max-width: 1000px) {
   .photoCarré {
     display: block; }
@@ -308,26 +422,28 @@ body p {
   #troisiemeSection {
     flex-direction: column-reverse; } }
 @media screen and (max-width: 500px) {
-  .deuxiemePartie .imageChambre1 #deuxiemeChevron, .deuxiemePartie .imageChambre1 #chevronBlanc2, .deuxiemePartie .imageChambre1 #quatriemeChevron, .deuxiemePartie .imageChambre2 #deuxiemeChevron, .deuxiemePartie .imageChambre2 #chevronBlanc2, .deuxiemePartie .imageChambre2 #quatriemeChevron, .deuxiemePartie .imageChambre3 #deuxiemeChevron, .deuxiemePartie .imageChambre3 #chevronBlanc2, .deuxiemePartie .imageChambre3 #quatriemeChevron {
-    left: 82%; }
-  .deuxiemePartie .imageChambre1 .cadreBleu, .deuxiemePartie .imageChambre1 .cadreBleu3, .deuxiemePartie .imageChambre2 .cadreBleu, .deuxiemePartie .imageChambre2 .cadreBleu3, .deuxiemePartie .imageChambre3 .cadreBleu, .deuxiemePartie .imageChambre3 .cadreBleu3 {
-    position: initial;
-    transition: initial;
-    width: 100%;
-    padding: 5px 0; }
-    .deuxiemePartie .imageChambre1 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre1 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre1 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre1 .cadreBleu3 #troisiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre2 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre2 .cadreBleu3 #troisiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre3 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre3 .cadreBleu3 #troisiemePlus {
-      display: none; }
-    .deuxiemePartie .imageChambre1 .cadreBleu ul, .deuxiemePartie .imageChambre1 .cadreBleu3 ul, .deuxiemePartie .imageChambre2 .cadreBleu ul, .deuxiemePartie .imageChambre2 .cadreBleu3 ul, .deuxiemePartie .imageChambre3 .cadreBleu ul, .deuxiemePartie .imageChambre3 .cadreBleu3 ul {
-      column-count: 2; }
-  .deuxiemePartie .imageChambre1 .cadreBleu2, .deuxiemePartie .imageChambre2 .cadreBleu2, .deuxiemePartie .imageChambre3 .cadreBleu2 {
-    position: initial;
-    transition: initial;
-    width: 100%;
-    padding: 5px 0; }
-    .deuxiemePartie .imageChambre1 .cadreBleu2 #deuxiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu2 #deuxiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu2 #deuxiemePlus {
-      display: none; }
-    .deuxiemePartie .imageChambre1 .cadreBleu2 ul, .deuxiemePartie .imageChambre2 .cadreBleu2 ul, .deuxiemePartie .imageChambre3 .cadreBleu2 ul {
-      column-count: 2;
-      margin: 0 0 0 30px; } }
+  .deuxiemePartie .imageChambre1, .deuxiemePartie .imageChambre2, .deuxiemePartie .imageChambre3 {
+    padding-bottom: 270px; }
+    .deuxiemePartie .imageChambre1 #deuxiemeChevron, .deuxiemePartie .imageChambre1 #chevronBlanc2, .deuxiemePartie .imageChambre1 #quatriemeChevron, .deuxiemePartie .imageChambre2 #deuxiemeChevron, .deuxiemePartie .imageChambre2 #chevronBlanc2, .deuxiemePartie .imageChambre2 #quatriemeChevron, .deuxiemePartie .imageChambre3 #deuxiemeChevron, .deuxiemePartie .imageChambre3 #chevronBlanc2, .deuxiemePartie .imageChambre3 #quatriemeChevron {
+      left: 82%; }
+    .deuxiemePartie .imageChambre1 .cadreBleu, .deuxiemePartie .imageChambre1 .cadreBleu3, .deuxiemePartie .imageChambre2 .cadreBleu, .deuxiemePartie .imageChambre2 .cadreBleu3, .deuxiemePartie .imageChambre3 .cadreBleu, .deuxiemePartie .imageChambre3 .cadreBleu3 {
+      position: initial;
+      transition: initial;
+      width: 100%;
+      padding: 5px 0; }
+      .deuxiemePartie .imageChambre1 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre1 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre1 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre1 .cadreBleu3 #troisiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre2 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre2 .cadreBleu3 #troisiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu #premierPlus, .deuxiemePartie .imageChambre3 .cadreBleu #troisiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu3 #premierPlus, .deuxiemePartie .imageChambre3 .cadreBleu3 #troisiemePlus {
+        display: none; }
+      .deuxiemePartie .imageChambre1 .cadreBleu ul, .deuxiemePartie .imageChambre1 .cadreBleu3 ul, .deuxiemePartie .imageChambre2 .cadreBleu ul, .deuxiemePartie .imageChambre2 .cadreBleu3 ul, .deuxiemePartie .imageChambre3 .cadreBleu ul, .deuxiemePartie .imageChambre3 .cadreBleu3 ul {
+        column-count: 2; }
+    .deuxiemePartie .imageChambre1 .cadreBleu2, .deuxiemePartie .imageChambre2 .cadreBleu2, .deuxiemePartie .imageChambre3 .cadreBleu2 {
+      position: initial;
+      transition: initial;
+      width: 100%;
+      padding: 5px 0; }
+      .deuxiemePartie .imageChambre1 .cadreBleu2 #deuxiemePlus, .deuxiemePartie .imageChambre2 .cadreBleu2 #deuxiemePlus, .deuxiemePartie .imageChambre3 .cadreBleu2 #deuxiemePlus {
+        display: none; }
+      .deuxiemePartie .imageChambre1 .cadreBleu2 ul, .deuxiemePartie .imageChambre2 .cadreBleu2 ul, .deuxiemePartie .imageChambre3 .cadreBleu2 ul {
+        column-count: 2;
+        margin: 0 0 0 30px; } }
 
 /*# sourceMappingURL=style.css.map */

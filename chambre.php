@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-  <title>Document</title>
+  <title>Chambre</title>
 </head>
 <body>
 
@@ -64,7 +64,7 @@
       <h2>Chambre Map Monde</h2>
       <p class="premierTexte">D’une superficie de <span>15m²</span>, cette chambre séduit par son cadre «<span>cosy</span>».</p>
       <p class="deuxiemeTexte">Doté d’un <span>lit double</span> (180X200 cm), l’espace y est particulièrement bien utilisé, plusieurs rangements dont une <span>armoire</span> seront à votre disposition. Un <span>plateau de courtoisie</span> et également mis à votre service.</p>
-      <button>Réserver</button>
+      <a href="reservation.php" target="_blank">Réserver</a>
     </div>
   </div>
 </div>
@@ -75,7 +75,7 @@
       <h2>Chambre Onyx</h2>
       <p class="premierTexte">D’une superficie de <span>15m²</span>, cette chambre séduit par son cadre «<span>cosy</span>».</p>
       <p class="deuxiemeTexte">Doté d’un <span>lit double</span> (180X200 cm), l’espace y est particulièrement bien utilisé, plusieurs rangements dont une <span>armoire</span> seront à votre disposition. Un <span>plateau de courtoisie</span> et également mis à votre service.</p>
-      <button>Réserver</button>
+      <a href="reservation.php" target="_blank">Réserver</a>
     </div>
   </div>
   <div class="imageChambre2" id="imageSlider2">
@@ -136,7 +136,7 @@
       <h2>Chambre Boiserie</h2>
       <p class="premierTexte">D’une superficie de <span>15m²</span>, cette chambre séduit par son cadre «<span>cosy</span>».</p>
       <p class="deuxiemeTexte">Doté d’un <span>lit double</span> (180X200 cm), l’espace y est particulièrement bien utilisé, plusieurs rangements dont une <span>armoire</span> seront à votre disposition. Un <span>plateau de courtoisie</span> et également mis à votre service.</p>
-      <button>Réserver</button>
+      <a href="reservation.php" target="_blank">Réserver</a>
     </div>
   </div>
 </div>
