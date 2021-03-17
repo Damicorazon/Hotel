@@ -53,7 +53,7 @@
       </div>
 
       <div class="boutonReservation">  
-      <input type="submit" value="Demande de réservation" id="submitContact" disabled>
+      <input type="submit" value="Veuillez remplir les champs" id="submitContact" disabled>
       </div>
     </form>
   </div>

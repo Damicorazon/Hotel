@@ -1,5 +1,7 @@
 /* BOUTON ENVOYER DE RESERVATION */
 
+var inputSubmit = document.getElementById('submitContact')
+
 document.getElementById('checkContact').addEventListener('click', checkRgpd);
 
 function checkRgpd() {
@@ -7,8 +9,10 @@ function checkRgpd() {
 							 
 	if (checkBox.checked == true && nom.value.length >= 3 && prenom.value.length >= 3 && telephone.value.length == 10 && mail.value.length >= 6 && arrivee.value != 'defaut'){
 		document.getElementById("submitContact").disabled = false;
+        inputSubmit.value = 'Demande de réservation';
 	} else {
 		document.getElementById("submitContact").disabled = true;
+        inputSubmit.value = 'Veuillez remplir les champs';
 	}
 }
 

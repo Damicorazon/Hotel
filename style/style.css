@@ -361,7 +361,29 @@ body p {
           margin: auto;
           display: block;
           font-family: 'PT Sans', sans-serif;
-          cursor: pointer; }
+          cursor: pointer;
+          position: relative;
+          z-index: 0;
+          overflow: hidden;
+          transition: 1s;
+          border: 1px solid #fff;
+          box-sizing: border-box; }
+        .reservation .reservationPartieGauche form .boutonReservation input:disabled {
+          color: #fff;
+          background: #173753;
+          border: 1px solid #fff;
+          box-sizing: border-box;
+          transition: 1s; }
+        .reservation .reservationPartieGauche form .boutonReservation input:disabled:hover {
+          background: #173753;
+          color: #fff;
+          border: 1px solid #fff;
+          box-sizing: border-box; }
+        .reservation .reservationPartieGauche form .boutonReservation input:hover {
+          background: #fff;
+          color: #173753;
+          border: 1px solid #fff;
+          box-sizing: border-box; }
   .reservation .reservationPartieDroite {
     background: url(../img/bed.jpg);
     background-repeat: no-repeat;
