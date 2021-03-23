@@ -7,7 +7,7 @@ document.getElementById('checkContact').addEventListener('click', checkRgpd);
 function checkRgpd() {
 	var checkBox = document.getElementById("checkContact");
 							 
-	if (checkBox.checked == true && nom.value.length >= 3 && prenom.value.length >= 3 && telephone.value.length == 10 && mail.value.length >= 6 && arrivee.value != 'defaut'){
+	if (checkBox.checked == true && nom.value.length >= 3 && prenom.value.length >= 3 && telephone.value.length == 10 && mail.value.length >= 6 && arrivee.value != 'defaut' && depart.value != 'defaut'){
 		document.getElementById("submitContact").disabled = false;
         inputSubmit.value = 'Demande de réservation';
 	} else {

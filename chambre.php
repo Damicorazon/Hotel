@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-  <title>Chambre</title>
-</head>
-<body>
+<section id="banniere-page-index">
+<h1>Hôtel 4 étoiles<br><span>success</span></h1>
+<?php require_once "inc/header.inc.php"; ?>
+</section>
+
 
 <div class="premierePartie">
   <h1>Chaque chambre est unique</h1>
@@ -140,6 +130,8 @@
     </div>
   </div>
 </div>
+
+<?php require_once "inc/footer.inc.php";?>
 
 <script src="script/script.js"></script>
 

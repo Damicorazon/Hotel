@@ -1,0 +1,24 @@
+<mj-section>
+
+  <mj-column>
+  	<mj-image href="https://www.booking.com/index.fr.html" src="../book.png" width="54px" align="center" alt="Logo de booking">
+    </mj-image>
+  </mj-column>
+  
+  <mj-column>
+    <mj-image href="https://www.instagram.com/" src="../instagram.png" width="50px" align="center" alt="Logo d'instagram">
+    </mj-image>
+  </mj-column>
+  
+</mj-section>
+
+<mj-section>
+  <mj-column>
+    <mj-text align="center" >
+      123 rue de la Tour Eiffel 75016 Paris
+    </mj-text>
+    <mj-text  align="center">
+    	Tél. +33 1 23 45 67 89
+    </mj-text>
+  </mj-column>
+</mj-section>

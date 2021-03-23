@@ -1,0 +1,50 @@
+
+                  /********* footer *********/
+
+                  footer {
+                    background-color: #173753 ;
+                    text-align: center;
+               
+                  }
+               
+                  .ig{
+                    width: 50px;
+                    padding: 40px;
+                   }
+                
+                   .booking {
+                     width: 120px;
+                     padding: 40px 0px;
+                 }
+               
+               
+                   footer p{
+                     color: #fff;
+                     font-family: "PT Sans", sans-serif;
+                     font-size: 20px;
+                     font-weight: normal;
+
+                    }
+                   
+                   footer a {
+                     text-decoration: none;
+                     color: #2D2F30;
+                   }
+               
+                   footer a:hover{
+                     color:#fff;
+                   }
+                  
+ /********* RESPONSIVE *********/
+  @media (max-width: 1000px) {
+    .ig{
+      width: 30px;
+      padding: 10px;}
+      .booking {
+        width: 80px;
+        padding: 10px 0px; }
+        footer p{
+          font-size: 10px;  }
+
+
+}

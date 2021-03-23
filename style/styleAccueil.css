@@ -1,0 +1,603 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+  .clear {
+    clear: both; }
+  
+  body {
+    font-family: "PT Sans", sans-serif;;
+  }
+
+    h1 {
+      font-weight: normal;
+      text-align: center;
+      font-size: 50px;
+      line-height: 90px;
+      color: #fff;
+      padding: 225px 0px 350px 0px;
+      text-shadow: 3px 5px 2px #173753;
+
+    }
+
+    #banniere-page-index span {
+      font-family: 'Srisakdi', cursive, sans-serif; 
+      font-size: 150px;
+      text-transform: capitalize;
+ }
+    
+
+    #banniere-page-index {
+        background: url(../img/accueil.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+            
+        
+
+
+          /********   section presentation  ******/
+
+    #presentation p {
+      font-family: "PT Sans", sans-serif;
+      text-align: center;
+      font-size: 30px;
+      padding: 60px;
+      color: #173753;
+      font-family: "PT Sans";
+      line-height: 40px;
+    }
+
+    #presentation span {
+      font-family: 'Srisakdi', cursive, sans-serif;
+      font-size: 40px;
+    }
+
+
+
+          /********   section chambre  ******/
+
+    #les-chambres {
+      /* background-size: cover; */
+      background: url(../img/chambre.png);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      width: 100%;
+
+    }     
+
+    #les-chambres h2  {
+      font-family: "PT Sans", sans-serif;
+      font-size: 50px;
+      color: #fff;
+      padding: 200px;
+      text-align: center;
+      font-weight: normal;
+
+    }
+
+    #les-chambres h2 span{
+      font-weight: normal;
+      font-size: 70px;
+      text-shadow: 3px 5px 2px #474747;
+      font-family: 'Srisakdi', cursive, sans-serif; 
+    }
+
+    #bouton {
+    padding: 0px 0px 100px 0px;
+     }
+
+    #les-chambres a {
+      background-color: #fff;
+      padding: 5px;
+      font-size: 20px;
+      border-radius: 10px;
+      color: #fff;
+      text-transform: uppercase;
+      color: #173753;
+      transition: all ease-in-out 0.2s;
+      cursor: pointer;
+      position: relative;
+      z-index: 0;
+      overflow: hidden;
+      border: 1px solid #173753;
+      text-align: center;
+      width: 10%;
+      text-decoration: none; }
+
+      #les-chambres a::before {
+      content: '';
+      position: absolute;
+      top: 55px;
+      left: 0px;
+      width: 110%;
+      height: 100%;
+      background: #173753;
+      z-index: -1;
+      transition: all .8s; }
+      #les-chambres a:hover::before {
+      background: #173753;
+      cursor: pointer;
+      top: 0px;
+      border-radius: 0; }
+    #les-chambres a:hover {
+      color: #fff;
+      border: 1px solid #fff; }
+
+      #les-chambres a {
+        display: block;
+        margin: auto;
+        cursor: pointer; }
+
+        /********* bande blanche **********/
+
+
+      #vide {
+        padding: 20px 0px;
+      }
+
+            /****** les services *******/
+
+    #les-services {
+      background-size: cover;
+      background: url(../img/piscine.png);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      width: 100%;
+    }
+
+    #les-services  h2{
+      font-weight: normal;
+      font-family: 'Srisakdi', cursive, sans-serif; 
+      font-size: 70px;
+      color: #fff;
+      padding: 300px;
+      text-align: center;
+      text-shadow: 3px 5px 2px #474747;
+
+    }
+
+
+    #confort h2 {
+      font-weight: normal;
+      font-family: "PT Sans", sans-serif;
+      text-align: center;
+      font-size: 50px;
+      color: #173753;
+      padding: 20px;
+      text-align: center;
+
+    }
+
+
+    .icons-haut {
+      display: flex;
+      margin: 30px 0px 0px 0px; }
+    
+      .icons-bas {
+        display: flex;
+        margin: 30px 0px 0px 0px; }
+
+    .content-icon {
+      width: 33.3%;
+      padding:  10px;
+      box-sizing: border-box; }
+
+    .content-icon p {
+      color: #173753;
+      font-family: "PT Sans", sans-serif;
+      font-size: 18px;
+      text-align: center;
+      line-height: 25px;
+      padding: 24px 0 20px 0; }
+
+    .content-icon img {
+      margin: auto;
+      display: block;
+      width: 10%;
+    }
+
+              /****** l'emplacement  *****/
+
+  #emplacement {
+    background: url(../img/pexels-elina-sazonova-1850619.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #emplacement  h2{
+    font-weight: normal;
+    font-family: 'Srisakdi', cursive, sans-serif; 
+    font-size: 70px;
+    color: #fff;
+    padding: 200px;
+    text-align: center;
+    text-shadow: 3px 5px 2px #474747;
+    
+  }
+
+#emplacement  h3{
+  font-weight: normal;
+  color: #173753;
+  font-family: "PT Sans";
+  font-size: 35px;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+#emplacement  p{
+  color: #173753;
+  font-family: "PT Sans";
+  font-size: 25px;
+  text-align: center;
+  padding: 100px;
+}
+
+#emplacement  h4{
+  font-weight: normal;
+  color: #173753;
+  font-family: "PT Sans";
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+}
+
+#conteneur {
+  width: 100%;
+  display: flex;
+}
+
+
+#divGauche {
+  width: 50%;
+  background-color: #DBD3D8;
+ 
+}
+
+
+    #map {
+    width: 50%; }
+     
+ 
+    #map .leaflet-touch, #map .leaflet-bar {
+      border: none; }
+
+
+          /******* contact ********/
+
+
+    #contact h2 {
+      font-weight: normal;
+      color: #173753;
+      font-family: 'Srisakdi', cursive,sans-serif; 
+      font-size: 70px;
+      text-align: center;
+      padding: 50px;
+      text-shadow: 3px 5px 2px #DBD3D8;
+
+    }
+
+    #contact h3 {
+      font-weight: normal;
+      color: #173753;
+      font-family: "PT Sans";
+      font-size: 30px;
+      text-align: center;
+      padding: 10px;
+    }
+
+    #bloc-form {
+      display: block;
+      margin: auto;
+      width: 30%;
+    }	
+      
+      .form-style-1 {
+      background-color: rgba(255, 255, 255, .4);
+      max-width: 450px;
+      font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      padding: 5%; 
+      display: block;
+      list-style: none;
+      margin: 30px 10px 10px 10px; 
+     }
+      
+    
+      .form-style-1 input[type=text],
+      .form-style-1 input[type=tel],
+      .form-style-1 input[type=email],
+      .form-style-1 input[type=checkbox],
+      textarea,
+      select {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      border: 1px solid #BEBEBE;
+      padding: 10px;
+      margin: 3px;
+    }
+      
+      .form-style-1 .field-divided { 
+      width: 48%;
+      margin: 15px 0 0 0; }
+    
+      .form-style-1 input[type=submit], .form-style-1 input[type=button] {
+      background: #173753;
+      padding: 8px 15px 8px 15px;
+      border: none;
+      text-transform: uppercase;
+      color: #fff;
+      margin: 1%; }
+    
+      input[type=submit]:hover {
+      cursor: pointer; }
+      
+      input[type=submit]:disabled {
+      cursor: not-allowed;
+      background: #383838;  
+     }
+
+     .form-style-1 .field-long { 
+      width: 99%;
+      margin: 15px 0 0 0; }
+      
+   #envoyerForm{
+    padding: 15px 30px;
+      display: block;
+      margin: 30px auto;
+      width: 150px;
+   }
+    
+
+
+            /****** RESPONSIVE ******/
+
+
+ /********   formulaire contact   ******/
+
+
+   @media (max-width: 1565px) {
+       #bloc-form {
+        width: 40%;
+        display: flex;
+        margin: auto;} 
+    .form-style-1 .field-divided {
+        width: 100%;} 
+     }          
+           
+        
+
+ /********   section presentation  ******/
+
+@media (max-width: 1000px) {
+
+  h1 {
+    font-size: 40px;
+    padding: 110px 0px 140px 0px;
+  }
+
+  #banniere-page-index span {
+     font-size: 100px; }
+
+    #banniere-page-index {
+  background-position: center center;}
+
+  #presentation p{
+  font-size: 20px;
+  padding: 20px;
+ 
+  }
+  #presentation span{
+    font-size: 22px;
+
+  }
+
+/********   section chambre  ******/
+#les-chambres {
+  background-position: center center;}
+
+  #les-chambres h2{
+    font-size: 30px;
+    padding: 100px;  }
+
+ #les-chambres h2 span{
+      font-size: 50px;}
+
+      #les-chambres a {
+        width: 20%;}
+
+  /********   section service  ******/
+#les-services {
+   background-position: center center;}
+
+ #les-services  h2{
+ font-size: 50px;
+ padding: 200px;
+}
+
+#confort h2 {  
+  font-size: 30px;  }
+
+  .content-icon p {
+ font-size: 15px;}
+  
+/****** l'emplacement  *****/ 
+#emplacement {
+  background-position: center center;}
+
+  #emplacement  h2{
+    font-size: 50px;  
+    padding: 100px;}
+
+ #emplacement h3{
+  font-size: 25px;
+  padding-top: 50px;}
+
+  #emplacement  p{
+    font-size: 20px;
+    padding: 70px;}
+
+    #emplacement  h4{
+    font-size: 20px;}
+
+  /******* contact ********/
+#contact h2 {
+  font-size: 50px;
+  padding: 30px;}
+  #contact h3 {
+    font-size: 20px;}
+} 
+
+
+         
+ 
+
+@media (max-width: 500px) {
+  #presentation p{
+    font-size: 15px;
+    padding: 10px;
+    }
+    #presentation span{
+      font-size: 20px; }
+
+      #les-chambres h2{
+        font-size: 30px;
+        padding: 30px;  }
+  
+        #les-chambres h2 span{
+          font-size: 40px;}
+
+            #les-chambres a { 
+              width: 30%; } 
+
+              #bouton {  
+                padding: 0px 0px 100px 0px;}
+           
+ #les-services h2{
+    font-size: 40px;
+    padding: 100px;} 
+                    
+ 
+#confort h2 {  
+  font-size: 28px;  }            
+
+  .content-icon img{
+    width:20%; }
+     
+    #emplacement h2{ 
+  font-size: 40px;  
+  padding: 100px; }
+
+  
+#emplacement  h3{
+    font-size: 20px;
+    padding-top: 30px;  } 
+  
+  #emplacement  p{
+      font-size: 15px;
+      padding: 40px;  }
+  
+ #emplacement  h4{
+    font-size: 15px;
+      padding: 10px; }
+     
+
+#contact h2 {
+ font-size: 40px;
+  padding: 20px;  }
+
+  #contact h3 {
+ font-size: 15px; }
+
+ #bloc-form {
+  width: 100%;
+  display: flex;
+  margin: auto;} 
+.form-style-1 .field-divided {
+  width: 100%;} 
+}          
+ 
+ 
+
+
+ @media (max-width: 350px) {
+
+  h1 {
+    font-size: 30px;
+    padding: 40px 0px 90px 0px;
+  }
+
+  #banniere-page-index span {
+     font-size: 80px; }
+
+     #presentation p{
+      font-size: 15px;
+      padding: 10px;
+      line-height: 20px; }
+
+      #les-chambres h2{
+        font-size: 20px;
+        padding: 20px;  }
+
+        #bouton {  
+          padding: 0px 0px 30px 0px;}
+
+          #les-services h2{
+            font-size: 40px;
+            padding: 60px;} 
+
+                  
+      #confort h2 {  
+        font-size: 25px;  }  
+
+
+        .content-icon  {
+         width: 100%;
+        }
+
+        .content-icon img {
+          width: 12%;
+        }
+      .icons-haut {
+        display: block;  }
+
+        .icons-bas {
+          display: block;}
+ 
+
+        #emplacement h2{ 
+          font-size: 40px;  
+          padding: 40px; }
+
+          #emplacement  h3{
+            font-size: 15px;
+            padding-top: 20px;  } 
+          
+            #emplacement  p{
+              font-size: 12px;
+              padding: 30px;  }
+
+              #emplacement  h4{
+                font-size: 10px;
+                  padding: 10px; }
+
+                  #contact h2 {
+                    font-size: 35px;
+                     padding: 15px;  }
+                   
+                     #contact h3 {
+                    font-size: 13px; }
+
+   #bloc-form {
+          width: 100%;
+      } 
+                  .form-style-1 .field-divided {
+                      width: 100%;} 
+                   }          
+                         
+                      
+
+  }
