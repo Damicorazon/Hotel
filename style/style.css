@@ -282,7 +282,8 @@ body p {
 /* PARTIE RESERVATION */
 .reservation {
   display: flex;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  margin: 20px 0; }
   .reservation .reservationPartieGauche, .reservation .reservationPartieDroite {
     width: 50%; }
   .reservation .reservationPartieGauche {
