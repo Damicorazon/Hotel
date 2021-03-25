@@ -48,7 +48,7 @@
                     <li><a href="#les-services">Services</a></li><br>
                     <li><a href="reservation.php">Réservation</a></li><br>
                          <li><a href="#" id="myBtn">Newsletter</a></li><br>
-                              <li><a href="#contact">Contact</a> </li>
+                              <li><a href="index.php#contact">Contact</a> </li>
           </ul>
     </div>
   </div>
