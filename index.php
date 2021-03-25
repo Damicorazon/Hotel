@@ -46,7 +46,7 @@
 		Dans un esprit cosy et chic </h2> 
 
  	<div id="bouton">
-		<a href="chambres.php" target="_blank">découvrir</a>
+		<a href="chambre.php">découvrir</a>
 	</div>
 
 </section>

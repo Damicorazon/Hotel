@@ -33,7 +33,8 @@ body p {
   width: 50%; }
 
 #gaucheNews img {
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
 
 #droiteNews {
   box-sizing: border-box;
