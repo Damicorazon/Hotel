@@ -2,7 +2,6 @@
 <?php require_once "inc/header.inc.php"; ?>
 </section>
 
-
 <div class="premierePartie">
   <h1>Chaque chambre est unique</h1>
   <p>Vous êtes ici chez vous</p>
