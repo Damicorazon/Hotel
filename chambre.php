@@ -1,9 +1,37 @@
 
+
 <?php require_once "inc/header.inc.php"; ?>
+
 </section>
 
 
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div id="gaucheNews">
+          <img src="img/reception-recadre.png">
+        </div>
+          <div id="droiteNews">
+          <div class="close">&times;</div>
+
+            <h5>Newsletter</h5>
+            <p>Laissez-nous votre adresse <br>mail pour être
+              informé.e <br>de nos actualités</p>
+
+          <div id="blocMail">
+                          <input type="email" id="emailNews" placeholder="Votre mail" >
+                    <input id="validateNews" type="submit" value="ENVOYER" > 
+          <div class="clear"></div>
+
+                 </div>
+      
+        </div>
+    </div>
+  </div>
 <div class="premierePartie">
+
+
+
+  
   <h1>Chaque chambre est unique</h1>
   <p>Vous êtes ici chez vous</p>
   <div class="photoCarré">
@@ -133,6 +161,7 @@
 <?php require_once "inc/footer.inc.php";?>
 
 <script src="script/script.js"></script>
+  <script src="script/pop-up-newsletter.js"></script>
 
 </body>
 </html>

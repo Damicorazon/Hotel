@@ -3,6 +3,30 @@
 <?php require_once "inc/header.inc.php"; ?>
 </section>
 
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div id="gaucheNews">
+          <img src="img/reception-recadre.png">
+        </div>
+          <div id="droiteNews">
+          <div class="close">&times;</div>
+
+            <h5>Newsletter</h5>
+            <p>Laissez-nous votre adresse <br>mail pour être
+              informé.e <br>de nos actualités</p>
+
+          <div id="blocMail">
+                          <input type="email" id="emailNews" placeholder="Votre mail" >
+                    <input id="validateNews" type="submit" value="ENVOYER" > 
+          <div class="clear"></div>
+
+                 </div>
+      
+        </div>
+    </div>
+  </div>
+  
 <div class="reservation">
   <div class="reservationPartieGauche">
     <h2>Indiquez-nous vos dates de séjour<br>
@@ -59,6 +83,7 @@
 <?php require_once "inc/footer.inc.php";?>
 
 <script src="script/scriptReservation.js"></script>
+  <script src="script/pop-up-newsletter.js"></script>
 
 </body>
 </html>
