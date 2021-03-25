@@ -83,7 +83,7 @@
         background: rgb(255, 255, 255, 0.5); 
         height: 100%;
         width: 100px;
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -98,7 +98,7 @@
         height: 100%;
         width: 100%;
         flex: none;
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -128,12 +128,14 @@
       /* Show Menu */
       .menu-wrap .toggler:checked ~ .menu {
         opacity: 1;
+        display: flex;
         width: 200px;
         transition: all var(--menu-speed) ease;
       }
       .menu-wrap .toggler:checked ~ .menu > div {
         opacity: 1;
         transition: opacity 0.4s ease-in;
+        display: flex;
       }
       .menu-wrap .toggler:checked ~ .menu > div a {
         opacity: 1;
