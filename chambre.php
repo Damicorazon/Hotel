@@ -1,5 +1,3 @@
-<section id="banniere-page-index">
-<h1>Hôtel 4 étoiles<br><span>success</span></h1>
 <?php require_once "inc/header.inc.php"; ?>
 </section>
 
