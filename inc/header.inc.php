@@ -1,5 +1,4 @@
-<?php require_once 'init.inc.php'; ?>
-
+ 
  <!DOCTYPE html> 
 <html lang="fr">
 	 <head>
@@ -48,18 +47,17 @@
                <li><a href="chambre.php">Chambres</a></li><br>
                     <li><a href="#les-services">Services</a></li><br>
                     <li><a href="reservation.php">Réservation</a></li><br>
-                          <li><a href="#">Newsletter</a></li><br>
-                              <li><a href="#contact">Contact</a> </li>
+                         <li><a href="#" id="myBtn">Newsletter</a></li><br>
+                              <li><a href="index.php#contact">Contact</a> </li>
           </ul>
     </div>
   </div>
 </div>
-
-
-
-
 </header>
 
 
- 
+<!--  <script src="script/pop-up-newsletter.js"></script>
+ -->
+
+
  

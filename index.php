@@ -1,17 +1,39 @@
  
+<?php require_once "inc/header.inc.php"; ?>
 
 <section>
 
 <section id="banniere-page-index">
 <h1>Hôtel 4 étoiles<br><span>success</span></h1>
-<?php require_once "inc/header.inc.php"; ?>
 </section>
 
 
 
+<div id="myModal" class="modal">
+		<div class="modal-content">
+				<div id="gaucheNews">
+					<img src="img/reception-recadre.png">
+				</div>
+					<div id="droiteNews">
+					<div class="close">&times;</div>
+
+						<h5>Newsletter</h5>
+						<p>Laissez-nous votre adresse <br>mail pour être
+							informé.e <br>de nos actualités</p>
+
+					<div id="blocMail">
+                          <input type="email" id="emailNews" placeholder="Votre mail" >
+                    <input id="validateNews" type="submit" value="ENVOYER" > 
+					<div class="clear"></div>
+
+                 </div>
+			
+				</div>
+		</div>
+	</div>
 
 <section id="presentation"> 
-	
+		
  <p> L'hôtel <span>Success</span> est un lieu où 
  l'élégance et le conford se rencontrent. <br> Découvrez Paris
  depuis le 16ème arrondissement, ou bien <br> organisez vos séminaires.<br>
@@ -140,8 +162,12 @@
 
  
      <?php require_once "inc/footer.inc.php";?>
-     <script src="script/scriptAccueil.js"></script>
 
+
+     <script src="script/scriptAccueil.js"></script>
+	<script src="script/pop-up-newsletter.js"></script>
+
+	
 </body>
 
 </html>
