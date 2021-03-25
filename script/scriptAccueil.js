@@ -1,5 +1,4 @@
 
-
 /*********  map  *********/ 
 
 var mymap = L.map("map").setView([ 48.56300,2.34268], 13);
@@ -111,5 +110,11 @@ function checkForm() {
 		document.getElementById("envoyerForm").disabled = true;
 	}
 }
+
+
+
+
+ 
+
 
  
