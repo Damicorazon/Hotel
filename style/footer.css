@@ -26,7 +26,13 @@
 
                     }
                    
-                   footer a {
+                    .buzz a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: normal;
+
+                    }
+                    .mentions a {
                      text-decoration: none;
                      color: #2D2F30;
                    }

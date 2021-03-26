@@ -497,7 +497,21 @@ body p {
       width: 30%;
       border-bottom: 1px solid #173753; }
 
-
+      #mentions {
+        padding: 130px 10px 50px 10px; }
+      
+      #mentions h1 {
+        font-size: 50px;
+        text-align: center; }
+      
+      #mentions h2 {
+        font-size: 30px; }
+      
+      #mentions h3 {
+        font-size: 25px; }
+      
+      #mentions p {
+        font-size: 20px; }
 
 /* RESPONSIVE NEWSLETTER */
 
@@ -551,6 +565,21 @@ display: none;}
 }  
 /* PARTIE RESPONSIVE */
 @media screen and (max-width: 1000px) {
+
+  #mentions {
+    padding: 60px 0px 10px 10px}
+    #mentions h1 {
+      font-size: 25px; 
+      padding: 10px}
+
+      #mentions h2 {
+        font-size: 20px; }
+        #mentions h3 {
+          font-size: 15px; }
+        
+        #mentions p {
+          font-size: 13px; }
+  
   .photoCarré {
     display: block; }
     .photoCarré div {
